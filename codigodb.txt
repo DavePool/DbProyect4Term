@@ -1,0 +1,21 @@
+create table Vehiculo (No_Motor int(10) not null, Tipo varchar (45) not null, Nombre varchar (45) not null, Cilindraje int (14) not null, PRIMARY KEY (No_Motor));
+
+create table Servicio (ID int (10) not null, Vehiculo_No_Motor int (10), 
+	15milKM float(10) not null,PRIMARY KEY (ID), 
+	30milKM float(10) not null,
+	45milKM float(10) not null,
+	60milKM float(10) not null,FOREIGN KEY (Vehiculo_No_Motor) references Vehiculo (No_Motor) on delete cascade on update cascade);
+
+create table Adicionales (No_Serie int (10) not null, Seguro varchar (45) not null, Mantenimiento_Correctivo varchar(45) not null,
+Robo boolean not null, Corrosion boolean not null, Pintura varchar (45) not null, Garantia varchar(45) not null,
+Respaldo boolean not null, Vehiculo_No_Motor int (10), PRIMARY KEY (No_Serie),
+FOREIGN KEY (Vehiculo_No_Motor) references Vehiculo (No_Motor) on delete cascade on update cascade);
+
+create table Rendimiento (ID int (10) not null,
+Combustible_ciudad varchar (45) not null,
+Combustible_Carretera varchar (45) not null,
+Combustible_Combinado varchar (45) not null,
+Potencia varchar (45) not null, Vehiculo_No_Motor int (10), PRIMARY KEY (ID),
+FOREIGN KEY (Vehiculo_No_Motor) references Vehiculo (No_Motor) on delete cascade on update cascade);
+
+create table user(Id int(10)not null auto_increment, User varchar(45) not null, Pass varchar(45) not null, TypeOfUser int(1), PRIMARY key(Id));
