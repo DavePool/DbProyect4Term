@@ -50,9 +50,9 @@ public class Con_Menu extends javax.swing.JFrame {
             .addGap(0, 279, Short.MAX_VALUE)
         );
 
-        jMenuBar1.setBackground(new java.awt.Color(44, 150, 117));
+        jMenuBar1.setBackground(new java.awt.Color(0, 153, 218));
         jMenuBar1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(44, 150, 117)));
-        jMenuBar1.setForeground(new java.awt.Color(44, 150, 117));
+        jMenuBar1.setForeground(new java.awt.Color(0, 153, 218));
 
         jMenu1.setText("Consultas");
 

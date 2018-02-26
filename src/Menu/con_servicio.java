@@ -70,7 +70,7 @@ public class con_servicio extends javax.swing.JFrame {
         });
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel1.setBackground(new java.awt.Color(44, 150, 117));
+        jPanel1.setBackground(new java.awt.Color(0, 153, 218));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-chevron-left.png"))); // NOI18N

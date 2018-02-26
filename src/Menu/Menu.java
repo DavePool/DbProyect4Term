@@ -35,7 +35,7 @@ public class Menu extends javax.swing.JFrame {
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        panelArriba.setBackground(new java.awt.Color(44, 150, 117));
+        panelArriba.setBackground(new java.awt.Color(0, 153, 218));
         panelArriba.setPreferredSize(new java.awt.Dimension(843, 40));
         panelArriba.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
             public void mouseDragged(java.awt.event.MouseEvent evt) {
@@ -49,7 +49,7 @@ public class Menu extends javax.swing.JFrame {
         });
         panelArriba.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        panelExit.setBackground(new java.awt.Color(44, 150, 117));
+        panelExit.setBackground(new java.awt.Color(0, 153, 218));
         panelExit.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
         panelExit.setPreferredSize(new java.awt.Dimension(51, 30));
         panelExit.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -72,7 +72,7 @@ public class Menu extends javax.swing.JFrame {
 
         panelArriba.add(panelExit, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 0, -1, -1));
 
-        panelMinimizar.setBackground(new java.awt.Color(44, 150, 117));
+        panelMinimizar.setBackground(new java.awt.Color(0, 153, 218));
         panelMinimizar.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
         panelMinimizar.setPreferredSize(new java.awt.Dimension(51, 30));
         panelMinimizar.addMouseListener(new java.awt.event.MouseAdapter() {

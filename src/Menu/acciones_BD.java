@@ -12,7 +12,7 @@ public class acciones_BD {
                               pst11, pst12, pst13, pst14, pst15 , pst16, pst17;
     private ResultSet rst, rst3;
     
-    private String ruta="jdbc:mysql://localhost/Consecionaria";
+    private String ruta="jdbc:mysql://localhost/concesionaria";
     private String usuario="root";
     private String password="";
     private String mencon, msg, msgII;
@@ -359,6 +359,7 @@ public class acciones_BD {
             pst17.execute();
             msgII = "servicios registrados";
         } catch (Exception e) {
+            System.out.println(e.getMessage());
         }
         
         return msgII;

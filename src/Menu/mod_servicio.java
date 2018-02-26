@@ -237,7 +237,7 @@ public class mod_servicio extends javax.swing.JFrame {
 
         getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 30, 280, 330));
 
-        jPanel1.setBackground(new java.awt.Color(44, 150, 117));
+        jPanel1.setBackground(new java.awt.Color(0, 153, 218));
         jPanel1.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
             public void mouseDragged(java.awt.event.MouseEvent evt) {
                 jPanel1MouseDragged(evt);
