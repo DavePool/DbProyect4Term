@@ -3,6 +3,7 @@ package Menu;
 import Menu.Menu;
 import Menu.acciones_BD;
 import java.sql.ResultSet;
+import javafx.geometry.HPos;
 import javax.swing.JOptionPane;
 
 
@@ -12,6 +13,8 @@ public class Altas extends javax.swing.JFrame {
      * Creates new form Altas
      */
     acciones_BD aBD= new acciones_BD();
+    acciones_dh adh = new acciones_dh();
+    
     ResultSet res;
     public Altas() {
         initComponents();
@@ -27,9 +30,14 @@ public class Altas extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        corrocionG = new javax.swing.ButtonGroup();
+        respaldoG = new javax.swing.ButtonGroup();
+        roboG = new javax.swing.ButtonGroup();
         jPanel1 = new javax.swing.JPanel();
         jLabel6 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
+        deshacer = new javax.swing.JLabel();
+        rehacer = new javax.swing.JLabel();
         jPanel4 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
@@ -87,6 +95,9 @@ public class Altas extends javax.swing.JFrame {
         jLabel29 = new javax.swing.JLabel();
         jLabel30 = new javax.swing.JLabel();
         jLabel31 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel34 = new javax.swing.JLabel();
+        jLabel35 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
@@ -135,15 +146,34 @@ public class Altas extends javax.swing.JFrame {
 
         jPanel2.setBackground(new java.awt.Color(153, 153, 153));
 
+        deshacer.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-deshacer-48.png"))); // NOI18N
+        deshacer.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                deshacerMouseClicked(evt);
+            }
+        });
+
+        rehacer.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-rehacer-48.png"))); // NOI18N
+
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 150, Short.MAX_VALUE)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(deshacer)
+                .addGap(18, 18, 18)
+                .addComponent(rehacer)
+                .addContainerGap(18, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 530, Short.MAX_VALUE)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGap(160, 160, 160)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(deshacer)
+                    .addComponent(rehacer))
+                .addContainerGap(322, Short.MAX_VALUE))
         );
 
         getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 30, -1, 530));
@@ -173,16 +203,22 @@ public class Altas extends javax.swing.JFrame {
 
         jLabel13.setText("Respaldo");
 
+        corrocionG.add(corrsi);
         corrsi.setText("Si");
 
+        corrocionG.add(corrno);
         corrno.setText("No");
 
+        respaldoG.add(respsi);
         respsi.setText("Si");
 
+        respaldoG.add(respno);
         respno.setText("No");
 
+        roboG.add(robosi);
         robosi.setText("Si");
 
+        roboG.add(robono);
         robono.setText("No");
 
         aceptar.setText("Aceptar");
@@ -242,6 +278,12 @@ public class Altas extends javax.swing.JFrame {
         jLabel30.setText("$");
 
         jLabel31.setText("$");
+
+        jLabel7.setText("KM/L");
+
+        jLabel34.setText("KM/L");
+
+        jLabel35.setText("KM/L");
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
@@ -338,15 +380,22 @@ public class Altas extends javax.swing.JFrame {
                                     .addComponent(jLabel19))
                                 .addGap(18, 18, 18)
                                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(ciudad, javax.swing.GroupLayout.PREFERRED_SIZE, 142, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(carretera, javax.swing.GroupLayout.PREFERRED_SIZE, 142, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(combinado, javax.swing.GroupLayout.PREFERRED_SIZE, 142, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(jLabel16)
                                     .addGroup(jPanel4Layout.createSequentialGroup()
                                         .addComponent(potencia, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addGap(18, 18, 18)
-                                        .addComponent(jLabel27)))
-                                .addGap(18, 18, 18)
+                                        .addComponent(jLabel27))
+                                    .addGroup(jPanel4Layout.createSequentialGroup()
+                                        .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                            .addComponent(combinado, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 119, Short.MAX_VALUE)
+                                            .addComponent(carretera, javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(ciudad, javax.swing.GroupLayout.Alignment.LEADING))
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(jLabel35, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(jLabel34, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(jSeparator3, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
@@ -372,8 +421,8 @@ public class Altas extends javax.swing.JFrame {
                                     .addComponent(jLabel29)
                                     .addComponent(jLabel30)
                                     .addComponent(jLabel31))))
-                        .addGap(0, 0, Short.MAX_VALUE)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addGap(0, 4, Short.MAX_VALUE)))
+                .addContainerGap(10, Short.MAX_VALUE))
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -416,15 +465,18 @@ public class Altas extends javax.swing.JFrame {
                                         .addGap(33, 33, 33)
                                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                             .addComponent(jLabel19)
-                                            .addComponent(ciudad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                            .addComponent(ciudad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(jLabel34))
                                         .addGap(29, 29, 29)
                                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                             .addComponent(jLabel17)
-                                            .addComponent(carretera, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                            .addComponent(carretera, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(jLabel7))
                                         .addGap(23, 23, 23)
                                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                             .addComponent(jLabel18)
-                                            .addComponent(combinado, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                            .addComponent(combinado, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(jLabel35))
                                         .addGap(18, 18, 18)
                                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                             .addComponent(jLabel20)
@@ -469,7 +521,7 @@ public class Altas extends javax.swing.JFrame {
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(Seguro, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(Nuse, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 38, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 21, Short.MAX_VALUE)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                         .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
@@ -555,6 +607,9 @@ public class Altas extends javax.swing.JFrame {
             //automovil
             System.out.println(aBD.agregar1BD(Integer.parseInt(numero.getText()), 
                     tipo.getText(), nom.getText(), Integer.parseInt((String) cmbcil.getSelectedItem())));
+            
+        //   (), String.valueOf(cmbcil.getSelectedItem()));
+            
             //adicionales
             System.out.println(aBD.agregar2BD(Integer.parseInt(Nuse.getText()), Seguro.getText(),
                     macor.getText(), robo, corrocion, pintura.getText(), (String) garantia.getSelectedItem(), 
@@ -567,6 +622,59 @@ public class Altas extends javax.swing.JFrame {
             System.out.println(aBD.services(Integer.parseInt(numero.getText()), 
                     Float.parseFloat(km15.getText()), Float.parseFloat(km30.getText()),
                     Float.parseFloat(km45.getText()), Float.parseFloat(km60.getText())));
+            /*
+                           __                             _                 _    
+                          / _|                           | |               | |   
+              ___   __ _ | |_   ___    ___   _ __    ___ | |_   __ _   ___ | | __
+             / __| / _` ||  _| / _ \  / _ \ | '_ \  / __|| __| / _` | / __|| |/ /
+             \__ \| (_| || |  |  __/ | (_) || | | | \__ \| |_ | (_| || (__ |   < 
+             |___/ \__,_||_|   \___|  \___/ |_| |_| |___/ \__| \__,_| \___||_|\_\
+             
+            */
+            String co = "", ro = "", re = "";
+            adh.guardarAdicionales(numero.getText(), Seguro.getText(), macor.getText(), pintura.getText());
+            
+            if (corrsi.isSelected()) {
+                co = "cosi";
+                adh.guardarCorrocion(co);
+            }else if(corrno.isSelected()){
+                co = "cono";
+                adh.guardarCorrocion(co);
+            }
+            
+            if(respsi.isSelected()){
+                re = "resi";
+                adh.guardarRespaldo(re);
+            }else if(respno.isSelected()){
+                re = "reno";
+                adh.guardarRespaldo(re);
+            } 
+            
+            if(robosi.isSelected()){
+                ro = "rosi";
+                adh.guardarRobo(ro);
+            }else if(robono.isSelected()){
+                ro = "rono";
+                adh.guardarRobo(ro);
+            }
+            
+            adh.guardarRendimiento(ciudad.getText(),carretera.getText(),combinado.getText(),potencia.getText());
+            adh.guardarServicio(km15.getText(),km30.getText(), km45.getText(), km60.getText());
+            adh.guardarVehiculo(numero.getText(), tipo.getText(), nom.getText());
+            adh.guardarCilindraje(cmbcil.getSelectedIndex());
+            System.out.println("index metiendo "+cmbcil.getSelectedIndex());
+            adh.guardarGarantia(garantia.getSelectedIndex());
+            System.out.println("index fff f "+garantia.getSelectedIndex());
+            /*
+                _____  _                     _                 _                _   ______  _        _      _ 
+               /  __ \| |                   (_)               | |              | |  |  ___|(_)      | |    | |
+               | /  \/| |  ___   __ _  _ __  _  _ __    __ _  | |_   ___ __  __| |_ | |_    _   ___ | |  __| |
+               | |    | | / _ \ / _` || '__|| || '_ \  / _` | | __| / _ \\ \/ /| __||  _|  | | / _ \| | / _` |
+               | \__/\| ||  __/| (_| || |   | || | | || (_| | | |_ |  __/ >  < | |_ | |    | ||  __/| || (_| |
+                \____/|_| \___| \__,_||_|   |_||_| |_| \__, |  \__| \___|/_/\_\ \__|\_|    |_| \___||_| \__,_|
+                                                        __/ |                                                 
+                                                       |___/                        
+            */
             
             numero.setText("");
             tipo.setText("");
@@ -584,6 +692,11 @@ public class Altas extends javax.swing.JFrame {
             carretera.setText("");
             potencia.setText("");
             combinado.setText("");
+            corrocionG.clearSelection();
+            roboG.clearSelection();
+            respaldoG.clearSelection();
+            cmbcil.setSelectedIndex(0);
+            garantia.setSelectedIndex(0);
         }
         
         else if (JOptionPane.NO_OPTION==res){
@@ -597,6 +710,84 @@ public class Altas extends javax.swing.JFrame {
     private void ciudadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ciudadActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_ciudadActionPerformed
+
+    private void deshacerMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_deshacerMouseClicked
+        // TODO add your handling code here:
+            //guardo los datos en la lista para deshacer adicionales
+            /*
+                _____ _        _           ______
+               / ____| |      | |    _    |___  /
+              | |    | |_ _ __| |  _| |_     / / 
+              | |    | __| '__| | |_   _|   / /  
+              | |____| |_| |  | |   |_|    / /__ 
+               \_____|\__|_|  |_|         /_____|
+
+            */
+          
+                pintura.setText(adh.moverAdicionales());
+                macor.setText(adh.moverAdicionales());
+                Seguro.setText(adh.moverAdicionales());
+                Nuse.setText(adh.moverAdicionales());
+                
+                if (adh.adicioCorro.size() == 0) {
+                    corrocionG.clearSelection();
+                }else{
+                    if (adh.moverCorrocion()) {
+                        corrsi.setSelected(true);
+                        corrno.setSelected(false);
+                    }else{
+                        corrno.setSelected(true);
+                        corrsi.setSelected(false);
+                    }
+                }
+                
+                if (adh.adicioRobo.size() == 0) {
+                    roboG.clearSelection();
+                }else{ 
+                    if (adh.moverRobo()) {
+                        robosi.setSelected(true);
+                        robono.setSelected(false);
+                    }else{
+                        robosi.setSelected(false);
+                        robono.setSelected(true);
+                    }
+                }
+                
+                if (adh.adicioResp.size() == 0) {
+                    respaldoG.clearSelection();
+                } else{ 
+                    if (adh.moverRespaldo()) {
+                        respsi.setSelected(true);
+                        respno.setSelected(false);
+                    }else{
+                        respsi.setSelected(false);
+                        respno.setSelected(true);
+                    }
+                }
+                
+                potencia.setText(adh.moverRendimientoKml());
+                combinado.setText(adh.moverRendimientoKml());
+                carretera.setText(adh.moverRendimientoKml());
+                ciudad.setText(adh.moverRendimientoKml());
+                
+                km60.setText(adh.moverKm());
+                km45.setText(adh.moverKm());
+                km30.setText(adh.moverKm());
+                km15.setText(adh.moverKm());
+                
+                nom.setText(adh.moverVehiculo());
+                tipo.setText(adh.moverVehiculo());
+                numero.setText(adh.moverVehiculo());
+                System.out.println("");
+                int s = adh.moverCilindraje();
+                cmbcil.setSelectedIndex(s);
+                System.out.println("indexxxxxxxxx "+s);
+                
+                int m = adh.moverGarantia();
+                System.out.println("indexxsrrrrr "+m);
+                garantia.setSelectedIndex(m);
+                
+    }//GEN-LAST:event_deshacerMouseClicked
 
     int xx, xy;
     /**
@@ -643,7 +834,9 @@ public class Altas extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> cmbcil;
     private javax.swing.JTextField combinado;
     private javax.swing.JRadioButton corrno;
+    private javax.swing.ButtonGroup corrocionG;
     private javax.swing.JRadioButton corrsi;
+    private javax.swing.JLabel deshacer;
     private javax.swing.JComboBox<String> garantia;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
@@ -670,9 +863,12 @@ public class Altas extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel30;
     private javax.swing.JLabel jLabel31;
+    private javax.swing.JLabel jLabel34;
+    private javax.swing.JLabel jLabel35;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
@@ -690,8 +886,11 @@ public class Altas extends javax.swing.JFrame {
     private javax.swing.JTextField numero;
     private javax.swing.JTextField pintura;
     private javax.swing.JTextField potencia;
+    private javax.swing.JLabel rehacer;
+    private javax.swing.ButtonGroup respaldoG;
     private javax.swing.JRadioButton respno;
     private javax.swing.JRadioButton respsi;
+    private javax.swing.ButtonGroup roboG;
     private javax.swing.JRadioButton robono;
     private javax.swing.JRadioButton robosi;
     private javax.swing.JTextField tipo;
