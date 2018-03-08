@@ -7,7 +7,7 @@ import javax.swing.JOptionPane;
 import javax.swing.ListSelectionModel;
 
 public class mod_vehiculo extends javax.swing.JFrame {
-
+    acciones_mod acm = new acciones_mod();
     acciones_BD acb = new acciones_BD();
     DefaultTableModel tablavehiculo;
     public mod_vehiculo() {
@@ -69,6 +69,8 @@ public class mod_vehiculo extends javax.swing.JFrame {
         jCheckBox1 = new javax.swing.JCheckBox();
         btAceptar = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
+        des = new javax.swing.JLabel();
+        reacer = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
@@ -124,6 +126,8 @@ public class mod_vehiculo extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jLabel4.setText("No_Motor");
 
+        jTextField3.setEditable(false);
+
         jLabel3.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jLabel3.setText("Tipo:");
 
@@ -154,6 +158,20 @@ public class mod_vehiculo extends javax.swing.JFrame {
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
+            }
+        });
+
+        des.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-deshacer-48.png"))); // NOI18N
+        des.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                desMouseClicked(evt);
+            }
+        });
+
+        reacer.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-rehacer-48.png"))); // NOI18N
+        reacer.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                reacerMouseClicked(evt);
             }
         });
 
@@ -188,8 +206,13 @@ public class mod_vehiculo extends javax.swing.JFrame {
                                         .addComponent(jTextField1))))))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(53, 53, 53)
-                        .addComponent(jCheckBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(35, Short.MAX_VALUE))
+                        .addComponent(jCheckBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGap(88, 88, 88)
+                        .addComponent(des)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(reacer)))
+                .addContainerGap(27, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -216,10 +239,14 @@ public class mod_vehiculo extends javax.swing.JFrame {
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btAceptar)
                     .addComponent(jButton1))
-                .addGap(101, 101, 101))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(des)
+                    .addComponent(reacer))
+                .addGap(92, 92, 92))
         );
 
-        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 30, 300, 310));
+        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 30, 300, 320));
 
         jPanel3.setBackground(new java.awt.Color(204, 204, 204));
 
@@ -252,11 +279,11 @@ public class mod_vehiculo extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 269, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, 13, Short.MAX_VALUE)
+                .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, 33, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
-        getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 30, 470, 310));
+        getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 30, 470, 320));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -292,13 +319,20 @@ public class mod_vehiculo extends javax.swing.JFrame {
 
     private void btAceptarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btAceptarActionPerformed
         int dialog = JOptionPane.YES_NO_OPTION;
+        
         int result = JOptionPane.showConfirmDialog(null, "Se modificaran los datos, desea continuar?", "ACTUALIZAR", dialog);
         if (result==0){
-            JOptionPane.showMessageDialog(null, acb.actualizarVehiculo(Integer.parseInt(jTextField3.getText()), jTextField2.getText(), jTextField1.getText(), Integer.parseInt((String) jComboBox1.getSelectedItem())));
+            
+            acm.guardarVehiculoMod(acb.getModificar(Integer.parseInt(jTextField3.getText()),"vehiculo"));
+            
+            JOptionPane.showMessageDialog(null, acb.actualizarVehiculo(Integer.parseInt(jTextField3.getText()), 
+                    jTextField2.getText(), jTextField1.getText(), Integer.parseInt((String) jComboBox1.getSelectedItem())));
             jTextField1.setText("");
             jTextField2.setText("");
             jTextField3.setText("");
             jComboBox1.setSelectedItem(0);
+           
+           
         }
     }//GEN-LAST:event_btAceptarActionPerformed
 
@@ -320,6 +354,71 @@ public class mod_vehiculo extends javax.swing.JFrame {
         limpiartabla();
         setFilas();
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void desMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_desMouseClicked
+        // TODO add your handling code here:
+        if (acm.vehiculoModNoMotor.isEmpty()) {
+           // des.setEnabled(false);
+        }else{
+           // des.setEnabled(true);
+            acb.conexioBD();
+            limpiartabla();
+          
+          jTextField3.setText(String.valueOf(acm.moverNoMotor()));
+          jTextField2.setText(acm.moverTipo());
+          jTextField1.setText(acm.moverNombre());
+          int c = acm.moverCilindraje();
+            if (c == 4) {
+              jComboBox1.setSelectedIndex(0);  
+            }else if (c == 8) {
+              jComboBox1.setSelectedIndex(1);
+            }else if (c == 12) {
+              jComboBox1.setSelectedIndex(2);
+            }
+          
+           acm.guardarVehiculoModRetorno(acb.getModificar(Integer.parseInt(jTextField3.getText()),"vehiculo"));
+         
+          acb.actualizarVehiculo(Integer.parseInt(jTextField3.getText()), jTextField2.getText(), jTextField1.getText(), 
+                  Integer.parseInt((String) jComboBox1.getSelectedItem()));
+          
+          
+          
+           setFilas();
+         } 
+    }//GEN-LAST:event_desMouseClicked
+
+    private void reacerMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_reacerMouseClicked
+        // TODO add your handling code here:
+         if (acm.vehiculoModNoMotorB.isEmpty()) {
+        //    reacer.setEnabled(false);
+        }else{
+          //  reacer.setEnabled(true);
+            acb.conexioBD();
+            limpiartabla();
+            
+            //guardar datos para rehacer
+            
+          
+          jTextField3.setText(String.valueOf(acm.moverNoMotorRetorno()));
+          jTextField2.setText(acm.moverTipoRetorno());
+          jTextField1.setText(acm.moverNombreRetorno());
+          int c = acm.moverCilindrajeRetorno();
+            if (c == 4) {
+              jComboBox1.setSelectedIndex(0);  
+            }else if (c == 8) {
+              jComboBox1.setSelectedIndex(1);
+            }else if (c == 12) {
+              jComboBox1.setSelectedIndex(2);
+            }
+         
+          acm.guardarVehiculoMod(acb.getModificar(Integer.parseInt(jTextField3.getText()),"vehiculo"));
+        
+          acb.actualizarVehiculo(Integer.parseInt(jTextField3.getText()), jTextField2.getText(), jTextField1.getText(), 
+                  Integer.parseInt((String) jComboBox1.getSelectedItem()));
+          
+           setFilas();
+         }
+    }//GEN-LAST:event_reacerMouseClicked
 
     /**
      * @param args the command line arguments
@@ -359,6 +458,7 @@ public class mod_vehiculo extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btAceptar;
+    private javax.swing.JLabel des;
     private javax.swing.JButton jButton1;
     private javax.swing.JCheckBox jCheckBox1;
     private javax.swing.JComboBox<String> jComboBox1;
@@ -376,5 +476,6 @@ public class mod_vehiculo extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;
     private javax.swing.JTextField jTextField3;
+    private javax.swing.JLabel reacer;
     // End of variables declaration//GEN-END:variables
 }

@@ -9,8 +9,8 @@ public class acciones_BD {
     private Connection con;
     private PreparedStatement pst, pst2, pst3, pst4, pst5,
                               pst6, pst7, pst8, pst9, pst10, 
-                              pst11, pst12, pst13, pst14, pst15 , pst16, pst17;
-    private ResultSet rst, rst3;
+                              pst11, pst12, pst13, pst14, pst15 , pst16, pst17, pstModificar;
+    private ResultSet rst, rst3, rstMod;
     
     private String ruta="jdbc:mysql://localhost/concesionaria";
     private String usuario="root";
@@ -42,7 +42,7 @@ public class acciones_BD {
     private String eliminar1="delete from Vehiculo where No_Motor=?";
     private String adduser = "insert into user(User, Pass, TypeOfUser) values(?, ?, ?)";
     private String servi = "INSERT INTO `Servicio` (`Vehiculo_No_Motor`, `15milKM`, `30milKM`, `45milKM`, `60milKM`) VALUES (?, ?, ?, ?, ?)";
-   
+    private String toMod ="";
     
     public String conexioBD(){
         try{
@@ -363,6 +363,18 @@ public class acciones_BD {
         }
         
         return msgII;
+    }
+    
+    //consulata para el dato a modificar
+    public ResultSet getModificar(int id, String tabla){
+        try {
+            pstModificar = con.prepareStatement("SELECT * FROM "+tabla+" WHERE No_Motor = "+id);
+            rstMod = pstModificar.executeQuery();
+            System.out.println("El query se ha hecho con exito");
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(null, e.getMessage());
+        }
+        return rstMod;
     }
   
 }
