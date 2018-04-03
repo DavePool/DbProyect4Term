@@ -425,22 +425,22 @@ public class mod_servicio extends javax.swing.JFrame {
             jTextField6.setText("");
 
         }else{
-        jTextField3.setText(String.valueOf(ams.moverId()));
-        jTextField1.setText(String.valueOf(ams.mover15()));
-        jTextField2.setText(String.valueOf(ams.mover30()));
-        jTextField4.setText(String.valueOf(ams.mover45()));
-        jTextField5.setText(String.valueOf(ams.mover60()));
-        jTextField6.setText(String.valueOf(ams.moverNo()));
-                
-        ams.guardarServicioModRetorno(acb.getModificarOtrasTablas(Integer.parseInt(jTextField3.getText()),"servicio"));
-         
-        acb.actualizarServicio(Integer.parseInt(jTextField3.getText()), Float.parseFloat(jTextField1.getText()),
-                Float.parseFloat(jTextField2.getText()),Float.parseFloat(jTextField4.getText()),
-                Float.parseFloat(jTextField5.getText()));
-        }
-        
-        limpiartabla();
-        setFilas(); 
+            jTextField3.setText(String.valueOf(ams.moverId()));
+            jTextField1.setText(String.valueOf(ams.mover15()));
+            jTextField2.setText(String.valueOf(ams.mover30()));
+            jTextField4.setText(String.valueOf(ams.mover45()));
+            jTextField5.setText(String.valueOf(ams.mover60()));
+            jTextField6.setText(String.valueOf(ams.moverNo()));
+
+            ams.guardarServicioModRetorno(acb.getModificarOtrasTablas(Integer.parseInt(jTextField3.getText()),"servicio"));
+
+            acb.actualizarServicio(Integer.parseInt(jTextField3.getText()), Float.parseFloat(jTextField1.getText()),
+                    Float.parseFloat(jTextField2.getText()),Float.parseFloat(jTextField4.getText()),
+                    Float.parseFloat(jTextField5.getText()));
+            }
+
+            limpiartabla();
+            setFilas(); 
     }//GEN-LAST:event_jLabel9MouseClicked
 
     private void jLabel10MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel10MouseClicked
@@ -455,18 +455,18 @@ public class mod_servicio extends javax.swing.JFrame {
             jTextField6.setText("");
 
         }else{
-        jTextField3.setText(String.valueOf(ams.moverIdR()));
-        jTextField1.setText(String.valueOf(ams.mover15R()));
-        jTextField2.setText(String.valueOf(ams.mover30R()));
-        jTextField4.setText(String.valueOf(ams.mover45R()));
-        jTextField5.setText(String.valueOf(ams.mover60R()));
-        jTextField6.setText(String.valueOf(ams.moverNoR()));
-                
-        ams.guardarServicioMod(acb.getModificarOtrasTablas(Integer.parseInt(jTextField3.getText()),"servicio"));
-         
-        acb.actualizarServicio(Integer.parseInt(jTextField3.getText()), Float.parseFloat(jTextField1.getText()),
-                Float.parseFloat(jTextField2.getText()),Float.parseFloat(jTextField4.getText()),
-                Float.parseFloat(jTextField5.getText()));
+            jTextField3.setText(String.valueOf(ams.moverIdR()));
+            jTextField1.setText(String.valueOf(ams.mover15R()));
+            jTextField2.setText(String.valueOf(ams.mover30R()));
+            jTextField4.setText(String.valueOf(ams.mover45R()));
+            jTextField5.setText(String.valueOf(ams.mover60R()));
+            jTextField6.setText(String.valueOf(ams.moverNoR()));
+
+            ams.guardarServicioMod(acb.getModificarOtrasTablas(Integer.parseInt(jTextField3.getText()),"servicio"));
+
+            acb.actualizarServicio(Integer.parseInt(jTextField3.getText()), Float.parseFloat(jTextField1.getText()),
+                    Float.parseFloat(jTextField2.getText()),Float.parseFloat(jTextField4.getText()),
+                    Float.parseFloat(jTextField5.getText()));
         }
         
         

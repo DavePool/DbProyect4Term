@@ -8,6 +8,8 @@ import javax.swing.ListSelectionModel;
 public class mod_rendimiento extends javax.swing.JFrame {
 
     acciones_BD acb = new acciones_BD();
+    acciones_rend amr = new acciones_rend();
+    
     DefaultTableModel tablarendimiento;
     public mod_rendimiento() {
         tablarendimiento = new DefaultTableModel(null, getColumnas());
@@ -65,12 +67,13 @@ public class mod_rendimiento extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         jCheckBox1 = new javax.swing.JCheckBox();
         btAceptar = new javax.swing.JButton();
-        jButton1 = new javax.swing.JButton();
         jLabel5 = new javax.swing.JLabel();
         jTextField4 = new javax.swing.JTextField();
         jTextField5 = new javax.swing.JTextField();
         jTextField6 = new javax.swing.JTextField();
         jLabel7 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
@@ -127,6 +130,8 @@ public class mod_rendimiento extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jLabel4.setText("ID");
         jPanel2.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 11, -1, 28));
+
+        jTextField3.setEditable(false);
         jPanel2.add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(112, 12, 178, 28));
 
         jLabel3.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
@@ -160,24 +165,34 @@ public class mod_rendimiento extends javax.swing.JFrame {
         });
         jPanel2.add(btAceptar, new org.netbeans.lib.awtextra.AbsoluteConstraints(32, 276, -1, -1));
 
-        jButton1.setText("Actualizar");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
-            }
-        });
-        jPanel2.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(173, 276, -1, -1));
-
         jLabel5.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jLabel5.setText("combinado:");
         jPanel2.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(17, 131, -1, 28));
         jPanel2.add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(112, 132, 178, 28));
         jPanel2.add(jTextField5, new org.netbeans.lib.awtextra.AbsoluteConstraints(112, 171, 178, 28));
+
+        jTextField6.setEditable(false);
         jPanel2.add(jTextField6, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 210, 178, 28));
 
         jLabel7.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jLabel7.setText("Vehiculo:");
         jPanel2.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(32, 217, -1, -1));
+
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-deshacer-48.png"))); // NOI18N
+        jLabel9.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel9MouseClicked(evt);
+            }
+        });
+        jPanel2.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 290, -1, -1));
+
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-rehacer-48.png"))); // NOI18N
+        jLabel10.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel10MouseClicked(evt);
+            }
+        });
+        jPanel2.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 290, -1, -1));
 
         getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 30, 300, 340));
 
@@ -213,7 +228,7 @@ public class mod_rendimiento extends javax.swing.JFrame {
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 269, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 15, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(26, Short.MAX_VALUE))
+                .addContainerGap(25, Short.MAX_VALUE))
         );
 
         getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 30, 470, 340));
@@ -254,21 +269,25 @@ public class mod_rendimiento extends javax.swing.JFrame {
         int dialog = JOptionPane.YES_NO_OPTION;
         int result = JOptionPane.showConfirmDialog(null, "Se modificaran los datos, desea continuar?", "ACTUALIZAR", dialog);
         if (result==0){
-            JOptionPane.showMessageDialog(null, acb.actualizarRendimiento(Integer.parseInt(jTextField3.getText()), jTextField2.getText(), jTextField1.getText(), jTextField4.getText(), jTextField5.getText(), Integer.parseInt(jTextField6.getText())));
+            
+             amr.guardarRendimientoMod(acb.getModificarOtrasTablas(Integer.parseInt(jTextField6.getText()),"rendimiento"));
+           
+            
+            JOptionPane.showMessageDialog(null, acb.actualizarRendimiento(Integer.parseInt(jTextField3.getText()),
+                    jTextField2.getText(), jTextField1.getText(), jTextField4.getText(), jTextField5.getText(),
+                    Integer.parseInt(jTextField6.getText())));
             jTextField1.setText("");
             jTextField2.setText("");
             jTextField3.setText("");
             jTextField4.setText("");
             jTextField5.setText("");
             jTextField6.setText("");
+            
+            
+           limpiartabla();
+           setFilas();
         }
     }//GEN-LAST:event_btAceptarActionPerformed
-
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        acb.conexioBD();
-        limpiartabla();
-        setFilas();
-    }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jTable1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTable1MouseClicked
         int seleccion = jTable1.rowAtPoint(evt.getPoint());
@@ -284,6 +303,66 @@ public class mod_rendimiento extends javax.swing.JFrame {
         jLabel8.setText(acb.conexioBD());
         setFilas();
     }//GEN-LAST:event_formWindowOpened
+
+    private void jLabel9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel9MouseClicked
+        // TODO add your handling code here:
+        if (amr.rendCarretera.isEmpty()) {
+            
+            jTextField3.setText("");
+            jTextField2.setText("");
+            jTextField1.setText("");
+            jTextField4.setText("");
+            jTextField5.setText("");
+            jTextField6.setText("");
+        
+        }else{
+            jTextField3.setText(String.valueOf(amr.rendId()));
+            jTextField2.setText(amr.rendCiudad());
+            jTextField1.setText(amr.rendCarretera());
+            jTextField4.setText(amr.rendCombinado());
+            jTextField5.setText(amr.rendPotencia());
+            jTextField6.setText(String.valueOf(amr.rendNoMotor()));
+
+             amr.guardarRendimientoModRetorno(acb.getModificarOtrasTablas(Integer.parseInt(jTextField6.getText()),"rendimiento"));
+
+              acb.actualizarRendimiento(Integer.parseInt(jTextField3.getText()),jTextField2.getText(),jTextField1.getText(),
+                      jTextField4.getText(),jTextField5.getText(),Integer.parseInt(jTextField6.getText()));
+
+
+               limpiartabla();
+               setFilas();
+        }
+    }//GEN-LAST:event_jLabel9MouseClicked
+
+    private void jLabel10MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel10MouseClicked
+        // TODO add your handling code here:
+         if (amr.rendCarreteraR.isEmpty()) {
+            
+            jTextField3.setText("");
+            jTextField2.setText("");
+            jTextField1.setText("");
+            jTextField4.setText("");
+            jTextField5.setText("");
+            jTextField6.setText("");
+        
+        }else{
+            jTextField3.setText(String.valueOf(amr.rendIdR()));
+            jTextField2.setText(amr.rendCiudadR());
+            jTextField1.setText(amr.rendCarreteraR());
+            jTextField4.setText(amr.rendCombinadoR());
+            jTextField5.setText(amr.rendPotenciaR());
+            jTextField6.setText(String.valueOf(amr.rendNoMotorR()));
+
+             amr.guardarRendimientoMod(acb.getModificarOtrasTablas(Integer.parseInt(jTextField6.getText()),"rendimiento"));
+
+              acb.actualizarRendimiento(Integer.parseInt(jTextField3.getText()),jTextField2.getText(),jTextField1.getText(),
+                      jTextField4.getText(),jTextField5.getText(),Integer.parseInt(jTextField6.getText()));
+
+
+               limpiartabla();
+               setFilas();
+        }
+    }//GEN-LAST:event_jLabel10MouseClicked
 
     /**
      * @param args the command line arguments
@@ -322,9 +401,9 @@ public class mod_rendimiento extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btAceptar;
-    private javax.swing.JButton jButton1;
     private javax.swing.JCheckBox jCheckBox1;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
@@ -332,6 +411,7 @@ public class mod_rendimiento extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;

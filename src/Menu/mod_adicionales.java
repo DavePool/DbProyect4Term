@@ -49,6 +49,8 @@ public class mod_adicionales extends javax.swing.JFrame {
         jTextField5 = new javax.swing.JTextField();
         jTextField6 = new javax.swing.JTextField();
         jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
@@ -149,7 +151,13 @@ public class mod_adicionales extends javax.swing.JFrame {
         jLabel7.setText("Vehiculo:");
         jPanel2.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(32, 217, -1, -1));
 
-        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 30, 300, 310));
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-deshacer-48.png"))); // NOI18N
+        jPanel2.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 320, -1, -1));
+
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-rehacer-48.png"))); // NOI18N
+        jPanel2.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 320, -1, -1));
+
+        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 30, 300, 370));
 
         jPanel3.setBackground(new java.awt.Color(204, 204, 204));
 
@@ -177,10 +185,10 @@ public class mod_adicionales extends javax.swing.JFrame {
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addGap(19, 19, 19)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 269, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(22, Short.MAX_VALUE))
+                .addContainerGap(82, Short.MAX_VALUE))
         );
 
-        getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 30, 470, 310));
+        getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 30, 470, 370));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -218,6 +226,8 @@ public class mod_adicionales extends javax.swing.JFrame {
         int result = JOptionPane.showConfirmDialog(null, "Se modificaran los datos, desea continuar?", 
                 "ACTUALIZAR", dialog);
         if (result==0){
+            
+            
             JOptionPane.showMessageDialog(null, aBD.actualizarRendimiento(Integer.parseInt(jTextField3.getText()),
                     jTextField2.getText(), jTextField1.getText(), jTextField4.getText(), 
                     jTextField5.getText(), Integer.parseInt(jTextField6.getText())));
@@ -291,6 +301,8 @@ public class mod_adicionales extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
