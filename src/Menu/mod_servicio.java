@@ -356,6 +356,7 @@ public class mod_servicio extends javax.swing.JFrame {
             jTextField5.setText("");
             jTextField6.setText("");
             
+            
             limpiartabla();
             setFilas();
         }

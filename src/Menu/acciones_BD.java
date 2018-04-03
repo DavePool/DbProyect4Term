@@ -371,7 +371,7 @@ public class acciones_BD {
             pstModificar = con.prepareStatement("SELECT * FROM "+tabla+" WHERE No_Motor = "+id);
             rstMod = pstModificar.executeQuery();
         } catch (Exception e) {
-            JOptionPane.showMessageDialog(null, "Error al hacer consulta en la bd: "+e.getMessage());
+            JOptionPane.showMessageDialog(null, "Error al hacer consulta en la tabla "+tabla+": "+e.getMessage());
         }
         return rstMod;
     }

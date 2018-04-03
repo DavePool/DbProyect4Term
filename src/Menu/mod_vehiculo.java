@@ -362,6 +362,7 @@ public class mod_vehiculo extends javax.swing.JFrame {
         }else{
            // des.setEnabled(true);
             acb.conexioBD();
+            
             limpiartabla();
           
           jTextField3.setText(String.valueOf(acm.moverNoMotor()));

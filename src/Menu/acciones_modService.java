@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
 /**
  *
  * @author Dave
- * 
+ * Clase para guardar los servicion para hacer y deshacer
  */
 public class acciones_modService {
     //listas para guardar los datos

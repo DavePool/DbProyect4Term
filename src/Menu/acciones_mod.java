@@ -5,6 +5,7 @@ import javax.swing.JOptionPane;
 /**
  *
  * @author Dave
+ * clase que se encarga de guardar para boton de hacer y deshacer
  */
     
 public class acciones_mod {
