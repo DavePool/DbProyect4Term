@@ -10,6 +10,8 @@ import javax.swing.ListSelectionModel;
 public class mod_servicio extends javax.swing.JFrame {
 
     acciones_BD acb = new acciones_BD();
+    acciones_modService ams = new acciones_modService();
+    
     DefaultTableModel tablaservicio;
     public mod_servicio() {
         tablaservicio = new DefaultTableModel(null, getColumnas());
@@ -42,7 +44,7 @@ public class mod_servicio extends javax.swing.JFrame {
         }
     }
     
-        private void limpiartabla(){
+     private void limpiartabla(){
         try {
             for (int i = 0; i < jTable1.getRowCount();i++){
                 tablaservicio.removeRow(i);
@@ -64,7 +66,6 @@ public class mod_servicio extends javax.swing.JFrame {
         jTextField1 = new javax.swing.JTextField();
         jCheckBox1 = new javax.swing.JCheckBox();
         btAceptar = new javax.swing.JButton();
-        jButton1 = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
         jTextField2 = new javax.swing.JTextField();
         jLabel5 = new javax.swing.JLabel();
@@ -73,6 +74,8 @@ public class mod_servicio extends javax.swing.JFrame {
         jTextField5 = new javax.swing.JTextField();
         jLabel8 = new javax.swing.JLabel();
         jTextField6 = new javax.swing.JTextField();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
         jLabel6 = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
@@ -95,6 +98,8 @@ public class mod_servicio extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jLabel4.setText("ID:");
 
+        jTextField3.setEditable(false);
+
         jLabel1.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jLabel1.setText("15milkm:");
 
@@ -110,13 +115,6 @@ public class mod_servicio extends javax.swing.JFrame {
         btAceptar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btAceptarActionPerformed(evt);
-            }
-        });
-
-        jButton1.setText("Actualizar");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
             }
         });
 
@@ -156,22 +154,27 @@ public class mod_servicio extends javax.swing.JFrame {
             }
         });
 
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-deshacer-48.png"))); // NOI18N
+        jLabel9.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel9MouseClicked(evt);
+            }
+        });
+
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-rehacer-48.png"))); // NOI18N
+        jLabel10.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel10MouseClicked(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jCheckBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 196, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(51, 51, 51))
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(29, 29, 29)
-                        .addComponent(btAceptar)
-                        .addGap(76, 76, 76)
-                        .addComponent(jButton1))
                     .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                         .addGroup(jPanel2Layout.createSequentialGroup()
                             .addComponent(jLabel3)
@@ -196,8 +199,19 @@ public class mod_servicio extends javax.swing.JFrame {
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addComponent(jLabel8)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jTextField6, javax.swing.GroupLayout.PREFERRED_SIZE, 178, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(15, Short.MAX_VALUE))
+                        .addComponent(jTextField6, javax.swing.GroupLayout.PREFERRED_SIZE, 178, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel2Layout.createSequentialGroup()
+                            .addGap(10, 10, 10)
+                            .addComponent(btAceptar)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(jLabel10))
+                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel2Layout.createSequentialGroup()
+                            .addGap(29, 29, 29)
+                            .addComponent(jCheckBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 196, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(27, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -222,20 +236,26 @@ public class mod_servicio extends javax.swing.JFrame {
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(18, 18, 18)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jTextField6, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addComponent(jCheckBox1)
-                .addGap(18, 18, 18)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btAceptar)
-                    .addComponent(jButton1))
-                .addGap(33, 33, 33))
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGap(18, 18, 18)
+                        .addComponent(btAceptar)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGap(29, 29, 29)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel10, javax.swing.GroupLayout.DEFAULT_SIZE, 77, Short.MAX_VALUE)
+                            .addComponent(jLabel9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addContainerGap())))
         );
 
-        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 30, 280, 330));
+        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 30, 280, 370));
 
         jPanel1.setBackground(new java.awt.Color(0, 153, 218));
         jPanel1.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
@@ -303,11 +323,11 @@ public class mod_servicio extends javax.swing.JFrame {
                 .addGap(19, 19, 19)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 269, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, 13, Short.MAX_VALUE)
+                .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, 52, Short.MAX_VALUE)
                 .addGap(18, 18, 18))
         );
 
-        getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 30, 490, 330));
+        getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 30, 490, 370));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -324,21 +344,22 @@ public class mod_servicio extends javax.swing.JFrame {
         int dialog = JOptionPane.YES_NO_OPTION;
         int result = JOptionPane.showConfirmDialog(null, "Se modificaran los datos, desea continuar?", "ACTUALIZAR", dialog);
         if (result==0){
-            JOptionPane.showMessageDialog(null, acb.actualizarServicio(Integer.parseInt(jTextField3.getText()), Float.parseFloat(jTextField1.getText()), Float.parseFloat(jTextField2.getText()), Float.parseFloat(jTextField4.getText()), Float.parseFloat(jTextField5.getText())));
+            ams.guardarServicioMod(acb.getModificarOtrasTablas(Integer.parseInt(jTextField3.getText()),"servicio"));
+         
+            JOptionPane.showMessageDialog(null, acb.actualizarServicio(Integer.parseInt(jTextField3.getText()), 
+                    Float.parseFloat(jTextField1.getText()), Float.parseFloat(jTextField2.getText()), 
+                    Float.parseFloat(jTextField4.getText()), Float.parseFloat(jTextField5.getText())));
             jTextField1.setText("");
             jTextField2.setText("");
             jTextField3.setText("");
             jTextField4.setText("");
             jTextField5.setText("");
             jTextField6.setText("");
+            
+            limpiartabla();
+            setFilas();
         }
     }//GEN-LAST:event_btAceptarActionPerformed
-
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        acb.conexioBD();
-        limpiartabla();
-        setFilas();
-    }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jLabel6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel6MouseClicked
         int dialog = JOptionPane.YES_NO_OPTION;
@@ -392,6 +413,66 @@ public class mod_servicio extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField6ActionPerformed
 
+    private void jLabel9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel9MouseClicked
+        // TODO add your handling code here:
+        if (ams.ser15.isEmpty()) {
+            jTextField3.setText("");
+            jTextField1.setText("");
+            jTextField2.setText("");
+            jTextField4.setText("");
+            jTextField5.setText("");
+            jTextField6.setText("");
+
+        }else{
+        jTextField3.setText(String.valueOf(ams.moverId()));
+        jTextField1.setText(String.valueOf(ams.mover15()));
+        jTextField2.setText(String.valueOf(ams.mover30()));
+        jTextField4.setText(String.valueOf(ams.mover45()));
+        jTextField5.setText(String.valueOf(ams.mover60()));
+        jTextField6.setText(String.valueOf(ams.moverNo()));
+                
+        ams.guardarServicioModRetorno(acb.getModificarOtrasTablas(Integer.parseInt(jTextField3.getText()),"servicio"));
+         
+        acb.actualizarServicio(Integer.parseInt(jTextField3.getText()), Float.parseFloat(jTextField1.getText()),
+                Float.parseFloat(jTextField2.getText()),Float.parseFloat(jTextField4.getText()),
+                Float.parseFloat(jTextField5.getText()));
+        }
+        
+        limpiartabla();
+        setFilas(); 
+    }//GEN-LAST:event_jLabel9MouseClicked
+
+    private void jLabel10MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel10MouseClicked
+        // TODO add your handling code here:
+        
+        if (ams.ser15R.isEmpty()) {
+            jTextField3.setText("");
+            jTextField1.setText("");
+            jTextField2.setText("");
+            jTextField4.setText("");
+            jTextField5.setText("");
+            jTextField6.setText("");
+
+        }else{
+        jTextField3.setText(String.valueOf(ams.moverIdR()));
+        jTextField1.setText(String.valueOf(ams.mover15R()));
+        jTextField2.setText(String.valueOf(ams.mover30R()));
+        jTextField4.setText(String.valueOf(ams.mover45R()));
+        jTextField5.setText(String.valueOf(ams.mover60R()));
+        jTextField6.setText(String.valueOf(ams.moverNoR()));
+                
+        ams.guardarServicioMod(acb.getModificarOtrasTablas(Integer.parseInt(jTextField3.getText()),"servicio"));
+         
+        acb.actualizarServicio(Integer.parseInt(jTextField3.getText()), Float.parseFloat(jTextField1.getText()),
+                Float.parseFloat(jTextField2.getText()),Float.parseFloat(jTextField4.getText()),
+                Float.parseFloat(jTextField5.getText()));
+        }
+        
+        
+        limpiartabla();
+        setFilas();
+    }//GEN-LAST:event_jLabel10MouseClicked
+
     /**
      * @param args the command line arguments
      */
@@ -429,9 +510,9 @@ public class mod_servicio extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btAceptar;
-    private javax.swing.JButton jButton1;
     private javax.swing.JCheckBox jCheckBox1;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
@@ -439,6 +520,7 @@ public class mod_servicio extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;

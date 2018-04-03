@@ -370,9 +370,18 @@ public class acciones_BD {
         try {
             pstModificar = con.prepareStatement("SELECT * FROM "+tabla+" WHERE No_Motor = "+id);
             rstMod = pstModificar.executeQuery();
-            System.out.println("El query se ha hecho con exito");
         } catch (Exception e) {
-            JOptionPane.showMessageDialog(null, e.getMessage());
+            JOptionPane.showMessageDialog(null, "Error al hacer consulta en la bd: "+e.getMessage());
+        }
+        return rstMod;
+    }
+    
+    public ResultSet getModificarOtrasTablas(int id, String tabla){
+        try {
+            pstModificar = con.prepareStatement("SELECT * FROM "+tabla+" WHERE Vehiculo_No_Motor = "+id);
+            rstMod = pstModificar.executeQuery();
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(null, "Error al hacer consulta en la tabla "+tabla+": "+e.getMessage());
         }
         return rstMod;
     }
