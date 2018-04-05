@@ -53,6 +53,7 @@ public class con_detallado extends javax.swing.JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
         jLabel2 = new javax.swing.JLabel();
+        jButton2 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
@@ -87,6 +88,14 @@ public class con_detallado extends javax.swing.JFrame {
         jPanel2.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 580, 258));
         jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(524, 290, 60, 20));
 
+        jButton2.setText("PDF");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
+        jPanel2.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 290, -1, -1));
+
         getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 30, 620, 320));
 
         pack();
@@ -101,6 +110,12 @@ public class con_detallado extends javax.swing.JFrame {
         this.dispose();
         new Con_Menu().show();
     }//GEN-LAST:event_jLabel1MouseClicked
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+       JasperClassPro.llenarReporte(abd.conexionReport(), "C:\\Users\\ADMIN\\Documents\\NetBeansProjects\\DbProyect4Term\\src\\Menu\\reportDet.jasper");
+        JasperClassPro.mostrarVisor(); 
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -139,6 +154,7 @@ public class con_detallado extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;

@@ -62,6 +62,17 @@ public class acciones_BD {
         }
         return mencon;
     }
+    public com.mysql.jdbc.Connection conexionReport() { 
+      try { Class.forName("com.mysql.jdbc.Driver");
+      con = (com.mysql.jdbc.Connection) DriverManager.getConnection(ruta, usuario, password);
+      mencon = "Reporte Conectado";
+    }
+    catch (Exception e) {
+      System.out.println(e.getMessage());
+      mencon = e.getMessage();
+    }
+      return (com.mysql.jdbc.Connection) con;
+  }
     
     public ResultSet consultarBDVehiculo(int No_Motor){
         try{

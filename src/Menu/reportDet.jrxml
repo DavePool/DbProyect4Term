@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="0" uuid="823dec6e-aa2a-476b-ba32-1825a58212e6">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<style name="Title" fontName="Arial" fontSize="26" isBold="true" pdfFontName="Helvetica-Bold"/>
+	<style name="SubTitle" forecolor="#666666" fontName="Arial" fontSize="18"/>
+	<style name="Column header" forecolor="#FFFFFF" fontName="Arial" fontSize="12" isBold="true"/>
+	<style name="Detail" fontName="Arial" fontSize="12"/>
+	<queryString language="SQL">
+		<![CDATA[select Vehiculo.No_Motor, Vehiculo.Tipo,
+                     Vehiculo.Nombre, Vehiculo.Cilindraje,
+                     Rendimiento.Combustible_ciudad, Rendimiento.Combustible_Carretera,
+                     Rendimiento.Combustible_Combinado, Rendimiento.Potencia,
+                     Adicionales.No_Serie, Adicionales.Seguro,
+                     Adicionales.Mantenimiento_Correctivo,
+                     Adicionales.Robo, Adicionales.Corrosion, Adicionales.Pintura,
+                      Adicionales.Garantia,
+                     Adicionales.Respaldo from
+                     Vehiculo inner join Rendimiento on Vehiculo.No_Motor = Rendimiento.Vehiculo_No_Motor
+                    inner join Adicionales on Vehiculo.No_Motor = Adicionales.Vehiculo_No_Motor]]>
+	</queryString>
+	<field name="No_Motor" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Tipo" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Nombre" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Cilindraje" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Combustible_ciudad" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Combustible_Carretera" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Combustible_Combinado" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Potencia" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="No_Serie" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Seguro" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Mantenimiento_Correctivo" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Robo" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Corrosion" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Pintura" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Garantia" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Respaldo" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band height="575" splitType="Stretch">
+			<rectangle>
+				<reportElement x="-20" y="234" width="20" height="241" backcolor="#000000" uuid="6cc2bd7a-55de-4c78-aba1-fbff60a8ecdf"/>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<frame>
+				<reportElement mode="Opaque" x="-20" y="475" width="105" height="100" backcolor="#666666" uuid="a9e5fbd3-687f-4e8e-b6e5-769c36cec7b7"/>
+				<textField>
+					<reportElement style="Column header" x="0" y="0" width="104" height="73" forecolor="#000000" uuid="d9539196-aa18-4568-a75e-0e3200e85cc0"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font size="58" isBold="true" pdfFontName="Helvetica-Bold"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+				</textField>
+				<textField evaluationTime="Report">
+					<reportElement style="Column header" x="0" y="77" width="104" height="20" forecolor="#000000" uuid="bf98b3a1-8161-43c9-a153-73aaa3cf083e"/>
+					<box leftPadding="4" rightPadding="4"/>
+					<textElement textAlignment="Center">
+						<font size="16" isBold="false"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+				</textField>
+				<line>
+					<reportElement mode="Transparent" x="42" y="73" width="20" height="1" backcolor="#FFFFFF" uuid="c3e14cf4-35f2-4df3-b13d-69ea35ec6cfa"/>
+				</line>
+			</frame>
+			<rectangle>
+				<reportElement x="-20" y="0" width="20" height="241" backcolor="#000000" uuid="3073e8fb-c3ed-4691-9aa3-1388f8129ba6"/>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+		</band>
+	</background>
+	<title>
+		<band height="104" splitType="Stretch">
+			<staticText>
+				<reportElement style="Title" x="0" y="0" width="802" height="67" uuid="66ed29aa-cb44-42e4-8651-452dfb3a4234"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="54" isBold="false" pdfFontName="Helvetica"/>
+				</textElement>
+				<text><![CDATA[Detallado Vehiculo]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="SubTitle" x="232" y="67" width="568" height="37" uuid="44072525-1bb2-4bb9-89cf-816b7ad08815"/>
+				<textElement textAlignment="Right">
+					<font size="26"/>
+				</textElement>
+				<text><![CDATA[Silhouette SubTitle]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="25" splitType="Stretch">
+			<frame>
+				<reportElement mode="Opaque" x="97" y="5" width="705" height="20" backcolor="#666666" uuid="4560a8cb-c6fc-4856-8d7d-6403560d0179"/>
+				<staticText>
+					<reportElement style="Column header" x="0" y="0" width="44" height="15" uuid="a3219b3c-21bd-44de-a7a6-97bd709242e2"/>
+					<text><![CDATA[No_Motor]]></text>
+				</staticText>
+				<staticText>
+					<reportElement style="Column header" x="44" y="0" width="44" height="15" uuid="3c053ee0-db58-4c62-aa23-922faae1af4d"/>
+					<text><![CDATA[Tipo]]></text>
+				</staticText>
+				<staticText>
+					<reportElement style="Column header" x="88" y="0" width="44" height="15" uuid="b7ce446e-c9ce-49f3-adac-fc65e0f7414d"/>
+					<text><![CDATA[Nombre]]></text>
+				</staticText>
+				<staticText>
+					<reportElement style="Column header" x="132" y="0" width="44" height="15" uuid="801cec57-a19c-42d9-a518-9cb777a231c2"/>
+					<text><![CDATA[Cilindraje]]></text>
+				</staticText>
+				<staticText>
+					<reportElement style="Column header" x="176" y="0" width="44" height="15" uuid="4309bb9e-9218-4e0c-9333-6126aa1f23e3"/>
+					<text><![CDATA[Combustible_ciudad]]></text>
+				</staticText>
+				<staticText>
+					<reportElement style="Column header" x="220" y="0" width="44" height="15" uuid="4e69b95b-dda8-474f-9be7-d8d08a1824b9"/>
+					<text><![CDATA[Combustible_Carretera]]></text>
+				</staticText>
+				<staticText>
+					<reportElement style="Column header" x="264" y="0" width="44" height="15" uuid="30445d8a-61d7-46e2-a21d-4018c1882212"/>
+					<text><![CDATA[Combustible_Combinado]]></text>
+				</staticText>
+				<staticText>
+					<reportElement style="Column header" x="308" y="0" width="44" height="15" uuid="0975ac61-d06f-40c1-9ec9-78ab1949a732"/>
+					<text><![CDATA[Potencia]]></text>
+				</staticText>
+				<staticText>
+					<reportElement style="Column header" x="352" y="0" width="44" height="15" uuid="2a3526ec-30ec-442d-a8b7-11f8bf18b564"/>
+					<text><![CDATA[No_Serie]]></text>
+				</staticText>
+				<staticText>
+					<reportElement style="Column header" x="396" y="0" width="44" height="15" uuid="0dbaa2a7-0ff6-4cc9-bf8d-9d3a9de4b579"/>
+					<text><![CDATA[Seguro]]></text>
+				</staticText>
+				<staticText>
+					<reportElement style="Column header" x="440" y="0" width="44" height="15" uuid="2f3d99a4-64ae-4cd9-84fc-4a77bcb66c7d"/>
+					<text><![CDATA[Mantenimiento_Correctivo]]></text>
+				</staticText>
+				<staticText>
+					<reportElement style="Column header" x="484" y="0" width="44" height="15" uuid="64d938b6-7480-43aa-a450-1032179cd276"/>
+					<text><![CDATA[Robo]]></text>
+				</staticText>
+				<staticText>
+					<reportElement style="Column header" x="528" y="0" width="44" height="15" uuid="04b8ae16-2ebd-4201-88ea-cd51df677373"/>
+					<text><![CDATA[Corrosion]]></text>
+				</staticText>
+				<staticText>
+					<reportElement style="Column header" x="572" y="0" width="44" height="15" uuid="930319c0-a308-48b3-81d5-1c66db5d507d"/>
+					<text><![CDATA[Pintura]]></text>
+				</staticText>
+				<staticText>
+					<reportElement style="Column header" x="616" y="0" width="44" height="15" uuid="9efd84f0-3383-42f8-89ea-20e666d22f6e"/>
+					<text><![CDATA[Garantia]]></text>
+				</staticText>
+				<staticText>
+					<reportElement style="Column header" x="660" y="0" width="44" height="15" uuid="6071ce3a-43a8-4e34-9491-3c0390291333"/>
+					<text><![CDATA[Respaldo]]></text>
+				</staticText>
+			</frame>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="21" splitType="Stretch">
+			<frame>
+				<reportElement x="97" y="1" width="705" height="15" uuid="7ea4db3c-4211-484c-873b-ae120fe6bc55"/>
+				<textField>
+					<reportElement style="Detail" x="0" y="0" width="44" height="15" uuid="9d17d09f-75fa-4825-ad27-8e9f5bd8d538"/>
+					<textFieldExpression><![CDATA[$F{No_Motor}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="Detail" x="44" y="0" width="44" height="15" uuid="6efd2517-2d2b-4c33-a594-5c94b08893de"/>
+					<textFieldExpression><![CDATA[$F{Tipo}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="Detail" x="88" y="0" width="44" height="15" uuid="d49a8d91-e28a-4909-a245-4e744b59d956"/>
+					<textFieldExpression><![CDATA[$F{Nombre}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="Detail" x="132" y="0" width="44" height="15" uuid="e04f2741-0e7a-43e0-8e58-59666ad3b44a"/>
+					<textFieldExpression><![CDATA[$F{Cilindraje}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="Detail" x="176" y="0" width="44" height="15" uuid="54472de4-1ad4-4575-8290-ad1ba1c0db8a"/>
+					<textFieldExpression><![CDATA[$F{Combustible_ciudad}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="Detail" x="220" y="0" width="44" height="15" uuid="bd30983c-21c8-483b-a592-4b50c260c641"/>
+					<textFieldExpression><![CDATA[$F{Combustible_Carretera}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="Detail" x="264" y="0" width="44" height="15" uuid="f0b71c9d-51c5-45c5-9002-4b285430bcb9"/>
+					<textFieldExpression><![CDATA[$F{Combustible_Combinado}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="Detail" x="308" y="0" width="44" height="15" uuid="825e3052-04c0-45ae-a509-0d5e713c57fd"/>
+					<textFieldExpression><![CDATA[$F{Potencia}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="Detail" x="352" y="0" width="44" height="15" uuid="1379d91e-05a1-405c-9ffd-a5e1cb041c64"/>
+					<textFieldExpression><![CDATA[$F{No_Serie}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="Detail" x="396" y="0" width="44" height="15" uuid="a81b45fc-4f30-4077-bc87-919d4083a09d"/>
+					<textFieldExpression><![CDATA[$F{Seguro}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="Detail" x="440" y="0" width="44" height="15" uuid="099a0bd4-4ee5-4f8a-a59e-584cbed972ef"/>
+					<textFieldExpression><![CDATA[$F{Mantenimiento_Correctivo}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="Detail" x="484" y="0" width="44" height="15" uuid="b3958215-2886-4325-936d-4e8d0dc80ca8"/>
+					<textFieldExpression><![CDATA[$F{Robo}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="Detail" x="528" y="0" width="44" height="15" uuid="ceb41426-d4d6-40a1-a66b-2651fea84a10"/>
+					<textFieldExpression><![CDATA[$F{Corrosion}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="Detail" x="572" y="0" width="44" height="15" uuid="5a58ee93-4e28-4201-b641-cec14fa5ada7"/>
+					<textFieldExpression><![CDATA[$F{Pintura}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="Detail" x="616" y="0" width="44" height="15" uuid="9c058259-e1af-45d6-b630-6a6ad91f44ea"/>
+					<textFieldExpression><![CDATA[$F{Garantia}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="Detail" x="660" y="0" width="44" height="15" uuid="9673adb4-11d7-4d45-ab16-a1f20740c7a3"/>
+					<textFieldExpression><![CDATA[$F{Respaldo}]]></textFieldExpression>
+				</textField>
+			</frame>
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="97" y="16" width="705" height="1" uuid="8234120c-0fa5-451e-88fd-ae7a5ef53126"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="39" splitType="Stretch">
+			<textField pattern="EEEEE dd MMMMM yyyy">
+				<reportElement style="Column header" x="671" y="0" width="131" height="20" forecolor="#000000" uuid="0c8308e1-d0ed-4d61-a9cc-a3febb3020b9"/>
+				<textElement textAlignment="Right">
+					<font size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="96" y="0" width="267" height="20" uuid="326b5aa3-01a6-4f11-b142-56984d7be8c0"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Silhouette Title Report]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>
