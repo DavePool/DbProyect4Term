@@ -26,7 +26,7 @@ public class acciones_rend {
     public void guardarRendimientoMod(ResultSet rst){
         try {
               if (rst.first()) {
-            
+                System.out.println("*************************Guradando Rendimiento********************************");
                 rendId.push(rst.getInt(1));
                   System.out.println("Se guardo rendimiento Id: "+ rendId.peek());
                 rendCiudad.push(rst.getString(2));
@@ -49,7 +49,7 @@ public class acciones_rend {
                   System.out.println("Tamaño de la pila potencia: "+rendpotencia.size());
                   System.out.println("Tamaño de la pila No Motor: "+rendNoMotor.size());
         
-        
+                  System.out.println("*************************************Fin********************************************");
         }
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null,e.getMessage());
@@ -60,7 +60,7 @@ public class acciones_rend {
      public void guardarRendimientoModRetorno(ResultSet rst){
         try {
               if (rst.first()) {
-                  System.out.println("*********************************************************************************\n");
+                  System.out.println("**************************Guardando Rendimiento Respaldo**************************\n");
                 
                 rendIdR.push(rst.getInt(1));
                   System.out.println("Se guardo rendimiento Id: "+ rendIdR.peek());
@@ -84,7 +84,7 @@ public class acciones_rend {
                   System.out.println("Tamaño de la pila potenciaR: "+rendpotenciaR.size());
                   System.out.println("Tamaño de la pila No MotorR: "+rendNoMotorR.size());
         
-                  System.out.println("*********************************************************************************\n");
+                  System.out.println("****************************************Fin*****************************************\n");
         }
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null,e.getMessage());

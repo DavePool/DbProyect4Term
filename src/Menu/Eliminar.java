@@ -18,6 +18,12 @@ public class Eliminar extends javax.swing.JFrame {
      * Creates new form Eliminar
      */
     acciones_BD acB = new acciones_BD();
+   
+    acciones_rend acr = new acciones_rend();           //rendimiento
+    acciones_eliminar ace = new acciones_eliminar();  //adicionales
+    acciones_mod acm = new acciones_mod();             //vehiculo
+    acciones_modService acs = new acciones_modService(); // servicio
+    
     ResultSet res;
     DefaultTableModel eliminarvehiculo;
     public Eliminar() {
@@ -85,7 +91,8 @@ public class Eliminar extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         jTextField5 = new javax.swing.JTextField();
         jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
@@ -192,10 +199,17 @@ public class Eliminar extends javax.swing.JFrame {
             }
         });
 
-        jButton3.setText("Actualizar tabla");
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-deshacer-48.png"))); // NOI18N
+        jLabel7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel7MouseClicked(evt);
+            }
+        });
+
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-rehacer-48.png"))); // NOI18N
+        jLabel9.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel9MouseClicked(evt);
             }
         });
 
@@ -229,8 +243,10 @@ public class Eliminar extends javax.swing.JFrame {
                         .addGap(34, 34, 34)
                         .addComponent(jButton2)
                         .addGap(18, 18, 18)
-                        .addComponent(jButton3)))
-                .addContainerGap(32, Short.MAX_VALUE))
+                        .addComponent(jLabel7)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel9)))
+                .addContainerGap(30, Short.MAX_VALUE))
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -256,10 +272,11 @@ public class Eliminar extends javax.swing.JFrame {
                     .addComponent(jLabel4)
                     .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
-                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jButton2)
-                    .addComponent(jButton3))
-                .addContainerGap(87, Short.MAX_VALUE))
+                    .addComponent(jLabel7)
+                    .addComponent(jLabel9))
+                .addContainerGap(49, Short.MAX_VALUE))
         );
 
         getContentPane().add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 30, 260, 310));
@@ -341,12 +358,26 @@ public class Eliminar extends javax.swing.JFrame {
         int dialog = JOptionPane.YES_NO_OPTION;
         int result = JOptionPane.showConfirmDialog(null, "Se eliminaran los datos permanentemente, desea continuar?", "ELIMINAR", dialog);
         if (result==0){
+            
+            //vehiculo
+            acm.guardarVehiculoMod(acB.getModificar(Integer.parseInt(jTextField2.getText()),"vehiculo"));
+            //servicio
+            acs.guardarServicioMod(acB.getModificarOtrasTablas(Integer.parseInt(jTextField2.getText()),"servicio"));
+            //rendimiento
+            acr.guardarRendimientoMod(acB.getModificarOtrasTablas(Integer.parseInt(jTextField2.getText()),"rendimiento"));
+            //adicionales
+            ace.guardarAdicionalesMod(acB.getModificarOtrasTablas(Integer.parseInt(jTextField2.getText()),"adicionales"));
+            
             JOptionPane.showMessageDialog(null, acB.eliminarProducto(Integer.parseInt(jTextField2.getText())));
             jTextField1.setText("");
             jTextField2.setText("");
             jTextField3.setText("");
             jTextField4.setText("");
             jTextField5.setText("");
+            
+            limpiartabla();
+            setFilas();
+            System.out.println("\n\n\n\n\n");
         }
     }//GEN-LAST:event_jButton2ActionPerformed
 
@@ -355,12 +386,6 @@ public class Eliminar extends javax.swing.JFrame {
         setFilas();
     }//GEN-LAST:event_formWindowOpened
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        acB.conexioBD();
-        limpiartabla();
-        setFilas();
-    }//GEN-LAST:event_jButton3ActionPerformed
-
     private void jTable1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTable1MouseClicked
         int seleccion = jTable1.rowAtPoint(evt.getPoint());
         jTextField3.setText(String.valueOf(jTable1.getValueAt(seleccion, 1)));
@@ -368,6 +393,105 @@ public class Eliminar extends javax.swing.JFrame {
         jTextField4.setText(String.valueOf(jTable1.getValueAt(seleccion, 2)));
         jTextField5.setText(String.valueOf(jTable1.getValueAt(seleccion, 3)));
     }//GEN-LAST:event_jTable1MouseClicked
+
+    private void jLabel7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel7MouseClicked
+        // TODO add your handling code here:
+        if (acm.vehiculoModCilindraje.isEmpty()) {
+            jTextField2.setText("");
+            jTextField3.setText("");
+            jTextField4.setText("");
+            jTextField5.setText("");      
+        }else{
+            //vehiculo
+            jTextField2.setText(String.valueOf(acm.moverNoMotor()));
+            jTextField3.setText(acm.moverTipo());
+            jTextField4.setText(acm.moverNombre());
+            jTextField5.setText(String.valueOf(acm.moverCilindraje()));
+            //servicio
+            int m15 = acs.mover15();
+            int m30 = acs.mover30();
+            int m45 = acs.mover45();
+            int m60 = acs.mover60();
+            int mid = acs.moverId();
+            int mNo = acs.moverNo();
+            //rendimiento
+            int rid = acr.rendId();
+            String rca = acr.rendCarretera();
+            String rci = acr.rendCiudad();
+            String rcom = acr.rendCombinado();
+            String rpo = acr.rendPotencia();
+            int rNo = acr.rendNoMotor();
+            //adicionales
+            int aserie = ace.noSerieAd();
+            String ase = ace.Seguro();
+            String aman = ace.mantoCorrectivo();
+            int arob = ace.robo();
+            int acor = ace.corrocion();
+            String apin = ace.pintura();
+            String agara = ace.garantia();
+            int ares = ace.respaldo();
+            int anom = ace.vehiculoNoMotorAdd();
+            System.out.println("**************************Insertando Datos Eliminados*********************************************\n");
+            //automovil
+            System.out.println(acB.agregar1BD(Integer.parseInt(jTextField2.getText()), 
+                    jTextField3.getText(), jTextField4.getText(), Integer.parseInt(jTextField5.getText())));
+            //adicionales
+            System.out.println(acB.agregar2BD(aserie,ase,aman,arob,acor,apin,agara,ares,anom));
+            //Rendimineto
+            System.out.println(acB.agregar3BD(rci,rca,rcom,rpo,rNo));
+            //servicios
+            System.out.println(acB.services(mNo,m15,m30,m45,m60));
+            System.out.println("****************************************FIN**************************************************\n");
+           
+              System.out.println("***************************guardando datos para retorno**********************************");
+            //vehiculo
+            acm.guardarVehiculoModRetorno(acB.getModificar(Integer.parseInt(jTextField2.getText()),"vehiculo"));
+            //servicio
+            acs.guardarServicioModRetorno(acB.getModificarOtrasTablas(Integer.parseInt(jTextField2.getText()),"servicio"));
+            //rendimiento
+            acr.guardarRendimientoModRetorno(acB.getModificarOtrasTablas(Integer.parseInt(jTextField2.getText()),"rendimiento"));
+            //adicionales
+            ace.guardarAdicionalesModRetorno(acB.getModificarOtrasTablas(Integer.parseInt(jTextField2.getText()),"adicionales"));
+            System.out.println("***************************************FIN******************************************************\n");
+            
+            limpiartabla();
+            setFilas();
+        }
+        
+       
+    }//GEN-LAST:event_jLabel7MouseClicked
+
+    private void jLabel9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel9MouseClicked
+        // TODO add your handling code here:
+        System.out.println("\n\n\n\n\n\n");
+         if (acm.vehiculoModNombreB.isEmpty()) {
+            jTextField2.setText("");
+            jTextField3.setText("");
+            jTextField4.setText("");
+            jTextField5.setText("");      
+        }else{
+            //vehiculo
+            jTextField2.setText(String.valueOf(acm.moverNoMotorRetorno()));
+            jTextField3.setText(acm.moverTipoRetorno());
+            jTextField4.setText(acm.moverNombreRetorno());
+            jTextField5.setText(String.valueOf(acm.moverCilindrajeRetorno()));
+            
+        System.out.println("********************************guardando vehiculos para rehacer********************************************************\n");
+         //vehiculo
+            acm.guardarVehiculoMod(acB.getModificar(Integer.parseInt(jTextField2.getText()),"vehiculo"));
+            //servicio
+            acs.guardarServicioMod(acB.getModificarOtrasTablas(Integer.parseInt(jTextField2.getText()),"servicio"));
+            //rendimiento
+            acr.guardarRendimientoMod(acB.getModificarOtrasTablas(Integer.parseInt(jTextField2.getText()),"rendimiento"));
+            //adicionales
+            ace.guardarAdicionalesMod(acB.getModificarOtrasTablas(Integer.parseInt(jTextField2.getText()),"adicionales"));
+            System.out.println("**************************************FIN****************************************************************************\n");
+            acB.eliminarProducto(Integer.parseInt(jTextField2.getText()));
+           
+            limpiartabla();
+            setFilas();
+         }
+    }//GEN-LAST:event_jLabel9MouseClicked
 
     /**
      * @param args the command line arguments
@@ -407,14 +531,15 @@ public class Eliminar extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel4;

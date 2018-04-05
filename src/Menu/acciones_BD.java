@@ -9,21 +9,26 @@ public class acciones_BD {
     private Connection con;
     private PreparedStatement pst, pst2, pst3, pst4, pst5,
                               pst6, pst7, pst8, pst9, pst10, 
-                              pst11, pst12, pst13, pst14, pst15 , pst16, pst17, pstModificar;
+                              pst11, pst12, pst13, pst14, pst15, 
+                              pst16, pst17, pstModificar, pst18;
     private ResultSet rst, rst3, rstMod;
     
     private String ruta="jdbc:mysql://localhost/concesionaria";
     private String usuario="root";
     private String password="";
+    
     private String mencon, msg, msgII;
     private String consultVehiculo="select * from Vehiculo where No_Motor =?";
+    
     private String modiVehiculo="update Vehiculo set Tipo=?, Nombre=?,"
             + " Cilindraje=? where No_Motor=?";
-    
     private String modiServicio="update Servicio set 15milKM=?, 30milKM=?, 45milKM=?, 60milKM=? where ID=?";
     private String modiRendimiento="update Rendimiento set Combustible_ciudad=?, "
             + "Combustible_Carretera=?, Combustible_Combinado=?, Potencia=?, "
             + "Vehiculo_No_Motor=? where ID=?";
+    private String modiAdicionales = "UPDATE adicionales SET No_Serie = ?, Seguro = ?, Mantenimiento_Correctivo = ?,"
+            + " Robo = ?, Corrosion = ?, Pintura = ?, Garantia = ? , Respaldo = ? "
+            + "WHERE Vehiculo_No_Motor = ?";
     
     private String user = "select * from user where (User = ? and Pass = ?)";
     private String typeOfUser = "select TypeOfUser from user where User = ?";
@@ -37,7 +42,7 @@ public class acciones_BD {
             + " Adicionales(No_Serie,Seguro,Mantenimiento_Correctivo,Robo,Corrosion,"
             + " Pintura,Garantia,Respaldo, Vehiculo_No_Motor) values(?,?,?,?,?,?,?,?,?)";
     private String rendimiento= "insert into Rendimiento(Combustible_ciudad, Combustible_Carretera,"
-            + "Combustible_Combinado,Potencia, Vehiculo_No_Motor)values(?, ?, ?, ?, ?)";
+            + "Combustible_Combinado,Potencia, Vehiculo_No_Motor,ID)values(?, ?, ?, ?, ?, ?)";
    
     private String eliminar1="delete from Vehiculo where No_Motor=?";
     private String adduser = "insert into user(User, Pass, TypeOfUser) values(?, ?, ?)";
@@ -158,6 +163,28 @@ public class acciones_BD {
         }
         catch(Exception e){
             System.out.println(e.getMessage());
+            mencon=e.getMessage();
+        }
+        return mencon;
+    }
+    
+    public String actualizarAdicionales(int noSerie, String seguro,
+            String mantenimientoCorrectivo,int robo,int corrocion,String pintura, String garantia,int respaldo,int noMotor){
+        try {
+            pst18 = con.prepareStatement(modiAdicionales);
+            pst18.setInt(1, noSerie);
+            pst18.setString(2, seguro);
+            pst18.setString(3, mantenimientoCorrectivo);
+            pst18.setInt(4, robo);
+            pst18.setInt(5, corrocion);
+            pst18.setString(6, pintura);
+            pst18.setString(7, garantia);
+            pst18.setInt(8, respaldo);
+            pst18.setInt(9, noMotor);
+            pst18.executeUpdate();
+            mencon = "El registro con "+noMotor+" se ha actualizado correctamente";
+        } catch (Exception e) {
+            System.out.println("error al actualizar servicio: "+e.getMessage());
             mencon=e.getMessage();
         }
         return mencon;
@@ -294,11 +321,12 @@ public class acciones_BD {
           pst15.setString(3, ambos);
           pst15.setString(4, potencial);
           pst15.setInt(5, Nm);
+          pst15.setInt(6, Nm);
           pst15.execute();
           mencon="rendimiento en el prodcuto en la BD";
         }
         catch(Exception e){
-            System.out.println(e.getMessage());
+            System.out.println("Error al insertar rendimiento: "+e.getMessage());
             mencon=e.getMessage();
         }
         return mencon;
@@ -359,7 +387,7 @@ public class acciones_BD {
             pst17.execute();
             msgII = "servicios registrados";
         } catch (Exception e) {
-            System.out.println(e.getMessage());
+            System.out.println("Error al registrar los servicion: "+ e.getMessage());
         }
         
         return msgII;

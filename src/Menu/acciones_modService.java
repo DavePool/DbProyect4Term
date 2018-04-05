@@ -26,7 +26,7 @@ public class acciones_modService {
     public void guardarServicioMod(ResultSet rst){
         try {
               if (rst.first()) {
-            
+                  System.out.println("********************************GUARDANDO SERVICIO*************************************\n");
                 serId.push(rst.getInt(1));
                     System.out.println("Se guardo idMotor: "+ serId.peek());
                 serNo.push(rst.getInt(2));
@@ -47,6 +47,7 @@ public class acciones_modService {
                   +"\ntamaño de la pila de 30k: "+ser30.size()
                   +"\nTamaño de la pila de 45k: "+ser45.size()
                   +"\nTamaño de la pila de 60K: "+ser60.size());
+                  System.out.println("********************************************FIN*****************************************\n");
         }
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null,"error al guardar servicio: "+e.getMessage());
@@ -56,7 +57,7 @@ public class acciones_modService {
      public void guardarServicioModRetorno(ResultSet rst){
         try {
               if (rst.first()) {
-                System.out.println("*********************************************************************************\n");
+                System.out.println("*********************************GUARDANDO SERVICIO RETORNO****************************************\n");
                 serIdR.push(rst.getInt(1));
                     System.out.println("Se guardo idMotor: "+ serIdR.peek());
                 serNoR.push(rst.getInt(2));
@@ -77,7 +78,7 @@ public class acciones_modService {
                   +"\ntamaño de la pila R de 30k: "+ser30R.size()
                   +"\nTamaño de la pila R de 45k: "+ser45R.size()
                   +"\nTamaño de la pila R de 60K: "+ser60R.size());
-                  System.out.println("*********************************************************************************\n");
+                  System.out.println("***************************************FIN******************************************\n");
         }
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null,e.getMessage());

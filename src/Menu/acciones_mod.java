@@ -22,7 +22,7 @@ public class acciones_mod {
     public void guardarVehiculoMod(ResultSet rst){
         try {
               if (rst.first()) {
-            
+                  System.out.println("*********************************GUARDANDO VEHICULO*****************************");
                 vehiculoModNoMotor.push(rst.getInt(1));
                   System.out.println("Se guardo idMotor: "+ vehiculoModNoMotor.peek());
                 vehiculoModTipo.push(rst.getString(2));
@@ -37,7 +37,7 @@ public class acciones_mod {
                   System.out.println("Tamaño de la pila cilindraje: "+vehiculoModCilindraje.size());
                   System.out.println("Tamaño de la pila no motor: "+vehiculoModNoMotor.size());
                   System.out.println("Tamaño de la pila nombre: "+vehiculoModNombre.size());
-        
+                  System.out.println("********************************FIN***********************************************\n");
         
         }
         } catch (Exception e) {
@@ -49,7 +49,7 @@ public class acciones_mod {
      public void guardarVehiculoModRetorno(ResultSet rst){
         try {
               if (rst.first()) {
-                  System.out.println("*********************************************************************************\n");
+                  System.out.println("****************************GUARDANDO VEHICULO RETORNO**********************************************\n");
                 vehiculoModNoMotorB.push(rst.getInt(1));
                   System.out.println("Se guardo idMotor: "+ vehiculoModNoMotorB.peek());
                 vehiculoModTipoB.push(rst.getString(2));
@@ -65,7 +65,7 @@ public class acciones_mod {
                   System.out.println("Tamaño de la pila no motor: "+vehiculoModNoMotorB.size());
                   System.out.println("Tamaño de la pila nombre: "+vehiculoModNombreB.size());
         
-                  System.out.println("*********************************************************************************\n");
+                  System.out.println("***************************************FIN***********************************************\n");
         }
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null,e.getMessage());
