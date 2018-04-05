@@ -11,7 +11,7 @@ public class acciones_BD {
                               pst6, pst7, pst8, pst9, pst10, 
                               pst11, pst12, pst13, pst14, pst15, 
                               pst16, pst17, pstModificar, pst18;
-    private ResultSet rst, rst3, rstMod;
+    private ResultSet rst, rst3, rstMod,rst1;
     
     private String ruta="jdbc:mysql://localhost/concesionaria";
     private String usuario="root";
@@ -48,6 +48,8 @@ public class acciones_BD {
     private String adduser = "insert into user(User, Pass, TypeOfUser) values(?, ?, ?)";
     private String servi = "INSERT INTO `Servicio` (`Vehiculo_No_Motor`, `15milKM`, `30milKM`, `45milKM`, `60milKM`) VALUES (?, ?, ?, ?, ?)";
     private String toMod ="";
+    
+    private String conUser = "select User, TypeOfUser from user";
     
     public String conexioBD(){
         try{
@@ -412,6 +414,17 @@ public class acciones_BD {
             JOptionPane.showMessageDialog(null, "Error al hacer consulta en la tabla "+tabla+": "+e.getMessage());
         }
         return rstMod;
+    }
+    
+    public ResultSet llenarUser(){
+        try {
+            pst5 = con.prepareStatement(conUser);
+            rst1 = pst5.executeQuery();
+            System.out.println("llenado de filas correcto!");
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(null, "Error en : "+e);
+        }
+        return rst1;
     }
   
 }

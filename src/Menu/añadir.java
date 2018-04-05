@@ -11,6 +11,7 @@ import java.security.NoSuchAlgorithmException;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import javax.swing.JOptionPane;
+import javax.swing.table.DefaultTableModel;
 
 /**
  *
@@ -18,12 +19,22 @@ import javax.swing.JOptionPane;
  */
 public class añadir extends javax.swing.JFrame {
 
-    /**
-     * Creates new form Eliminar
-     */
+   
     acciones_BD acB = new acciones_BD();
     ResultSet res;
+    
+    ResultSet rst,ress;
+    
+    //declarando el modelo de la tabla
+   DefaultTableModel modeloTabla;
+   //el encabezado de la tabla
+   String columnas [] = new String[]{"Usuario","Privilegios"};
+   
+   //arraglo del tipo object para cada uno de mis elementos
+   Object filas[] = new Object[2];
+
     public añadir() {
+        modeloTabla = new DefaultTableModel(null,columnas); //inicializando la tabla
         initComponents();
         this.setLocationRelativeTo(null);
     }
@@ -55,6 +66,12 @@ public class añadir extends javax.swing.JFrame {
         pass1 = new javax.swing.JPasswordField();
         jLabel5 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        tabla = new javax.swing.JTable();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
+        jSeparator1 = new javax.swing.JSeparator();
 
         jPanel1.setBackground(new java.awt.Color(44, 150, 117));
         jPanel1.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
@@ -138,14 +155,14 @@ public class añadir extends javax.swing.JFrame {
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 523, Short.MAX_VALUE))
+                .addGap(0, 793, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jLabel8, javax.swing.GroupLayout.DEFAULT_SIZE, 30, Short.MAX_VALUE)
         );
 
-        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 570, -1));
+        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 840, -1));
 
         jPanel4.setBackground(new java.awt.Color(102, 102, 102));
 
@@ -168,7 +185,7 @@ public class añadir extends javax.swing.JFrame {
                 guardarActionPerformed(evt);
             }
         });
-        getContentPane().add(guardar, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 300, 140, 40));
+        getContentPane().add(guardar, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 300, 140, 40));
 
         buttonGroup1.add(admin);
         admin.setText("Administrador");
@@ -190,9 +207,27 @@ public class añadir extends javax.swing.JFrame {
         getContentPane().add(pass1, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 200, -1, -1));
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel5.setText("Registro De Usuarios");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 40, -1, -1));
-        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 330, 80, 20));
+        jLabel5.setText("Lista De Usuarios");
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 50, -1, -1));
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 340, 80, 20));
+
+        tabla.setModel(modeloTabla);
+        jScrollPane1.setViewportView(tabla);
+
+        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 110, 300, 220));
+
+        jLabel9.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel9.setText("Registro De Usuarios");
+        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 50, -1, -1));
+
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-deshacer-48.png"))); // NOI18N
+        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 290, -1, -1));
+
+        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-rehacer-48.png"))); // NOI18N
+        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 290, -1, -1));
+
+        jSeparator1.setOrientation(javax.swing.SwingConstants.VERTICAL);
+        getContentPane().add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 50, 20, 290));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -207,6 +242,31 @@ public class añadir extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_jLabel6MouseClicked
 
+      private void limpiartabla(){
+        try {
+            for (int i = 0; i < tabla.getRowCount();i++){
+                modeloTabla.removeRow(i);
+                i-=1;
+            }
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(null, e.getMessage());
+        }
+    }
+    private void llenarTabla(){
+        
+       ress = acB.llenarUser();
+        try {
+            while (ress.next()) {                
+                for (int i = 0; i < columnas.length; i++) {
+                    filas[i] =ress.getObject(i+1);
+                }
+                modeloTabla.addRow(filas);
+            }
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(null, e.getMessage());
+        }
+        
+    }
     private void jPanel1MouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel1MouseDragged
         int x = evt.getXOnScreen();
         int y = evt.getYOnScreen();
@@ -278,6 +338,8 @@ public class añadir extends javax.swing.JFrame {
                        usr.setText("");
                        pass.setText("");
                        pass1.setText("");
+                       limpiartabla();
+                       llenarTabla();
                  }else{
                      JOptionPane.showMessageDialog(null, "Las contraseñas no coinciden");
                  }
@@ -290,6 +352,8 @@ public class añadir extends javax.swing.JFrame {
                         usr.setText("");
                         pass.setText("");
                         pass1.setText("");
+                        limpiartabla();
+                        llenarTabla();
                  }else{
                       JOptionPane.showMessageDialog(null, "Las contraseñas no coinciden");
                  }
@@ -302,6 +366,8 @@ public class añadir extends javax.swing.JFrame {
 
     private void formWindowOpened(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowOpened
         jLabel7.setText(acB.conexioBD());
+        limpiartabla();
+        llenarTabla();
     }//GEN-LAST:event_formWindowOpened
 
     private void consultActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_consultActionPerformed
@@ -350,6 +416,8 @@ public class añadir extends javax.swing.JFrame {
     private javax.swing.JRadioButton consult;
     private javax.swing.JButton guardar;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
@@ -357,11 +425,15 @@ public class añadir extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel4;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JSeparator jSeparator1;
     private javax.swing.JPasswordField pass;
     private javax.swing.JPasswordField pass1;
+    private javax.swing.JTable tabla;
     private javax.swing.JTextField usr;
     // End of variables declaration//GEN-END:variables
 }
