@@ -132,7 +132,7 @@ public class con_cotizacion extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        JasperClassPro.llenarReporte(abd.conexionReport(), "C:\\Users\\ADMIN\\Documents\\NetBeansProjects\\DbProyect4Term\\src\\Menu\\reportCo.jasper");
+        JasperClassPro.llenarReporte(abd.conexionReport(), "C:\\Users\\Dave\\Documents\\NetBeansProjects\\DbProyect4Term\\src\\Menu\\reportCo.jasper");
         JasperClassPro.mostrarVisor();
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton2ActionPerformed

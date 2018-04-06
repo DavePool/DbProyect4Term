@@ -19,7 +19,7 @@ import javax.swing.table.DefaultTableModel;
  */
 public class añadir extends javax.swing.JFrame {
 
-   
+    acciones_usuario acu = new acciones_usuario();
     acciones_BD acB = new acciones_BD();
     ResultSet res;
     
@@ -69,8 +69,6 @@ public class añadir extends javax.swing.JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         tabla = new javax.swing.JTable();
         jLabel9 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
         jSeparator1 = new javax.swing.JSeparator();
 
         jPanel1.setBackground(new java.awt.Color(44, 150, 117));
@@ -185,7 +183,7 @@ public class añadir extends javax.swing.JFrame {
                 guardarActionPerformed(evt);
             }
         });
-        getContentPane().add(guardar, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 300, 140, 40));
+        getContentPane().add(guardar, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 280, 140, 40));
 
         buttonGroup1.add(admin);
         admin.setText("Administrador");
@@ -212,6 +210,11 @@ public class añadir extends javax.swing.JFrame {
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 340, 80, 20));
 
         tabla.setModel(modeloTabla);
+        tabla.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                tablaMouseClicked(evt);
+            }
+        });
         jScrollPane1.setViewportView(tabla);
 
         getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 110, 300, 220));
@@ -219,12 +222,6 @@ public class añadir extends javax.swing.JFrame {
         jLabel9.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel9.setText("Registro De Usuarios");
         getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 50, -1, -1));
-
-        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-deshacer-48.png"))); // NOI18N
-        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 290, -1, -1));
-
-        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-rehacer-48.png"))); // NOI18N
-        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 290, -1, -1));
 
         jSeparator1.setOrientation(javax.swing.SwingConstants.VERTICAL);
         getContentPane().add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 50, 20, 290));
@@ -333,11 +330,16 @@ public class añadir extends javax.swing.JFrame {
              if (admin.isSelected()) {
                  System.out.println("admin");
                  if (pass.getText().equals(pass1.getText())) {
+                     
                      JOptionPane.showMessageDialog(null, 
                         acB.add(usr.getText(),encriptaEnMD5(pass.getText()) ,1));
+                     
+                     // acu.guardarUsuarioMod(acB.getModificarUser(usr.getText()));
+            
                        usr.setText("");
                        pass.setText("");
                        pass1.setText("");
+                       admin.setSelected(false);
                        limpiartabla();
                        llenarTabla();
                  }else{
@@ -349,9 +351,13 @@ public class añadir extends javax.swing.JFrame {
                  if (pass.getText().equals(pass1.getText())) {
                      JOptionPane.showMessageDialog(null, 
                         acB.add(usr.getText(),encriptaEnMD5(pass.getText()) ,2));
+                                       
+                     // acu.guardarUsuarioMod(acB.getModificarUser(usr.getText()));
+            
                         usr.setText("");
                         pass.setText("");
                         pass1.setText("");
+                        consult.setSelected(false);
                         limpiartabla();
                         llenarTabla();
                  }else{
@@ -373,6 +379,12 @@ public class añadir extends javax.swing.JFrame {
     private void consultActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_consultActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_consultActionPerformed
+
+    private void tablaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tablaMouseClicked
+        // TODO add your handling code here:
+        int seleccion = tabla.rowAtPoint(evt.getPoint());
+        usr.setText(String.valueOf(tabla.getValueAt(seleccion, 0)));
+    }//GEN-LAST:event_tablaMouseClicked
 
     /**
      * @param args the command line arguments
@@ -416,8 +428,6 @@ public class añadir extends javax.swing.JFrame {
     private javax.swing.JRadioButton consult;
     private javax.swing.JButton guardar;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;

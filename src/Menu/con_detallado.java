@@ -112,7 +112,7 @@ public class con_detallado extends javax.swing.JFrame {
     }//GEN-LAST:event_jLabel1MouseClicked
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-       JasperClassPro.llenarReporte(abd.conexionReport(), "C:\\Users\\ADMIN\\Documents\\NetBeansProjects\\DbProyect4Term\\src\\Menu\\reportDet.jasper");
+       JasperClassPro.llenarReporte(abd.conexionReport(), "C:\\Users\\Dave\\Documents\\NetBeansProjects\\DbProyect4Term\\src\\Menu\\reportDet.jasper");
         JasperClassPro.mostrarVisor(); 
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton2ActionPerformed

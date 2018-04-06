@@ -138,7 +138,7 @@ public class con_Vehiculo extends javax.swing.JFrame {
     }//GEN-LAST:event_jLabel5MouseClicked
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        JasperClassPro.llenarReporteConVehi(acB.conexionReport(), "C:\\Users\\ADMIN\\Documents\\NetBeansProjects\\DbProyect4Term\\src\\Menu\\reportVe.jasper",Integer.parseInt(jTextField1.getText()));
+        JasperClassPro.llenarReporteConVehi(acB.conexionReport(), "C:\\Users\\Dave\\Documents\\NetBeansProjects\\DbProyect4Term\\src\\Menu\\reportVe.jasper",Integer.parseInt(jTextField1.getText()));
     JasperClassPro.mostrarVisorConVehi();
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton3ActionPerformed
