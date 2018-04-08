@@ -20,11 +20,47 @@ public class acciones_usuario {
     LinkedList  userPrivilegeR = new LinkedList();
     
     
+    public void guardarUsuarioModNobd(String user, String pass,int typeOfUser){
+                System.out.println("*********************************GUARDANDO USUARIO no DB***********************************");
+                  
+                userName.push(user);
+                  System.out.println("El tipo de auto pasado guardado: "+ userName.peek());
+                userPass.push(pass);
+                    System.out.println("La contraseña se a guardado: "+userPass.peek());
+                userPrivilege.push(typeOfUser);
+                     System.out.println("El tipo de privilegio se a guardado: "+userPrivilege.peek());
+                
+                System.out.println("guardando el srt");
+                  System.out.println("\n");
+                  System.out.println("Tamaño de la pila id: "+userPrivilege.size());
+                  System.out.println("Tamaño de la pila nombre: "+userName.size());
+                  System.out.println("Tamaño de la pila pass: "+userPass.size());
+                  System.out.println("********************************FIN***********************************************\n"); 
+    }
+    
+    public void guardarUsuarioModNobdR(String user, String pass,int typeOfUser){
+                System.out.println("*********************************GUARDANDO USUARIO Respaldo No DB***********************************");
+                  
+                userNameR.push(user);
+                  System.out.println("El tipo de auto pasado guardado: "+ userNameR.peek());
+                userPassR.push(pass);
+                    System.out.println("La contraseña se a guardado: "+userPassR.peek());
+                userPrivilegeR.push(typeOfUser);
+                     System.out.println("El tipo de privilegio se a guardado: "+userPrivilegeR.peek());
+                
+                System.out.println("guardando el srt");
+                  System.out.println("\n");
+                  System.out.println("Tamaño de la pila id: "+userPrivilegeR.size());
+                  System.out.println("Tamaño de la pila nombre: "+userNameR.size());
+                  System.out.println("Tamaño de la pila pass: "+userPassR.size());
+                  System.out.println("********************************FIN***********************************************\n"); 
+    }
+    
     public void guardarUsuarioMod(ResultSet rst){
         try {
               if (rst.first()) {
-                  System.out.println("*********************************GUARDANDO USUARIO*****************************");
-                userId.push(rst.getInt(1));
+                  System.out.println("****************************GUARDANDO VEHICULO RETORNO**********************************************\n");
+               userId.push(rst.getInt(1));
                   System.out.println("Se guardo id del usuario: "+ userId.peek());
                 userName.push(rst.getString(2));
                   System.out.println("El tipo de auto pasado guardado: "+ userName.peek());
@@ -38,8 +74,8 @@ public class acciones_usuario {
                   System.out.println("Tamaño de la pila id: "+userId.size());
                   System.out.println("Tamaño de la pila nombre: "+userName.size());
                   System.out.println("Tamaño de la pila pass: "+userPass.size());
-                  System.out.println("********************************FIN***********************************************\n");
-        
+                
+                  System.out.println("***************************************FIN***********************************************\n");
         }
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null,e.getMessage());

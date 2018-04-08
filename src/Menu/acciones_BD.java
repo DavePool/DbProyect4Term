@@ -46,6 +46,7 @@ public class acciones_BD {
    
     private String eliminar1="delete from Vehiculo where No_Motor=?";
     private String adduser = "insert into user(User, Pass, TypeOfUser) values(?, ?, ?)";
+    private String eliminarUser ="delete from user where user = ?";
     private String servi = "INSERT INTO `Servicio` (`Vehiculo_No_Motor`, `15milKM`, `30milKM`, `45milKM`, `60milKM`) VALUES (?, ?, ?, ?, ?)";
     private String toMod ="";
     
@@ -350,6 +351,20 @@ public class acciones_BD {
         pst14.setInt(1, No_Motor);
         pst14.execute();
         mencon="El registro de "+No_Motor+" se elimino de la BD";
+        }
+        catch(Exception e){
+            System.out.println(e.getMessage());
+            mencon=e.getMessage();
+        }
+        return mencon;
+    }
+    
+    public String eliminarUsuario(String user){
+        try{
+        pst14 = con.prepareStatement(eliminarUser);
+        pst14.setString(1, user);
+        pst14.execute();
+        mencon="El usuario con el nombre: "+user+" se elimino de la BD";
         }
         catch(Exception e){
             System.out.println(e.getMessage());

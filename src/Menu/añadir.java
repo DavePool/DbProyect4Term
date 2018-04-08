@@ -70,6 +70,8 @@ public class añadir extends javax.swing.JFrame {
         tabla = new javax.swing.JTable();
         jLabel9 = new javax.swing.JLabel();
         jSeparator1 = new javax.swing.JSeparator();
+        jLabel10 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
 
         jPanel1.setBackground(new java.awt.Color(44, 150, 117));
         jPanel1.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
@@ -183,7 +185,7 @@ public class añadir extends javax.swing.JFrame {
                 guardarActionPerformed(evt);
             }
         });
-        getContentPane().add(guardar, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 280, 140, 40));
+        getContentPane().add(guardar, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 280, 140, 40));
 
         buttonGroup1.add(admin);
         admin.setText("Administrador");
@@ -225,6 +227,22 @@ public class añadir extends javax.swing.JFrame {
 
         jSeparator1.setOrientation(javax.swing.SwingConstants.VERTICAL);
         getContentPane().add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 50, 20, 290));
+
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-deshacer-48.png"))); // NOI18N
+        jLabel10.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel10MouseClicked(evt);
+            }
+        });
+        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 280, -1, -1));
+
+        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-rehacer-48.png"))); // NOI18N
+        jLabel11.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel11MouseClicked(evt);
+            }
+        });
+        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 280, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -332,9 +350,9 @@ public class añadir extends javax.swing.JFrame {
                  if (pass.getText().equals(pass1.getText())) {
                      
                      JOptionPane.showMessageDialog(null, 
-                        acB.add(usr.getText(),encriptaEnMD5(pass.getText()) ,1));
+                       acB.add(usr.getText(),encriptaEnMD5(pass.getText()) ,1));
                      
-                     // acu.guardarUsuarioMod(acB.getModificarUser(usr.getText()));
+                       acu.guardarUsuarioModNobd(usr.getText(),pass.getText(),1);
             
                        usr.setText("");
                        pass.setText("");
@@ -352,7 +370,7 @@ public class añadir extends javax.swing.JFrame {
                      JOptionPane.showMessageDialog(null, 
                         acB.add(usr.getText(),encriptaEnMD5(pass.getText()) ,2));
                                        
-                     // acu.guardarUsuarioMod(acB.getModificarUser(usr.getText()));
+                        acu.guardarUsuarioModNobd(usr.getText(),pass.getText(),2);
             
                         usr.setText("");
                         pass.setText("");
@@ -382,9 +400,45 @@ public class añadir extends javax.swing.JFrame {
 
     private void tablaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tablaMouseClicked
         // TODO add your handling code here:
-        int seleccion = tabla.rowAtPoint(evt.getPoint());
+      /*  int seleccion = tabla.rowAtPoint(evt.getPoint());
         usr.setText(String.valueOf(tabla.getValueAt(seleccion, 0)));
+        System.out.println("...."+tabla.getValueAt(seleccion, 1));
+        if (tabla.getValueAt(seleccion, 1).equals(1)) {
+            System.out.println("si");
+            admin.setSelected(true);
+        }else{
+            System.out.println("no");
+            consult.setSelected(true);
+        }*/
+            
     }//GEN-LAST:event_tablaMouseClicked
+
+    private void jLabel10MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel10MouseClicked
+        // TODO add your handling code here:
+        String user = acu.userName();
+        String pass = acu.userPass();
+        int t = acu.userPrivilege();
+        acu.guardarUsuarioModNobdR(user, pass, t);
+        acB.eliminarUsuario(user);
+        
+        limpiartabla();
+        llenarTabla();
+    }//GEN-LAST:event_jLabel10MouseClicked
+
+    private void jLabel11MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel11MouseClicked
+        // TODO add your handling code here:
+        System.out.println("*********************++"+acu.userIdR.size());
+        if (acu.userNameR.size() != 0) {
+            
+            String user = acu.userNameR();
+            String pass = acu.userPassR();
+            int t = acu.userPrivilegeR();
+            acu.guardarUsuarioModNobd(user, pass, t);
+            acB.add(user, encriptaEnMD5(pass), t);
+             limpiartabla();
+             llenarTabla();
+        }
+    }//GEN-LAST:event_jLabel11MouseClicked
 
     /**
      * @param args the command line arguments
@@ -428,6 +482,8 @@ public class añadir extends javax.swing.JFrame {
     private javax.swing.JRadioButton consult;
     private javax.swing.JButton guardar;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
