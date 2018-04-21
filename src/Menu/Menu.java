@@ -1,11 +1,12 @@
 package Menu;
 import AppPackage.AnimationClass;
 public class Menu extends javax.swing.JFrame {
-
+    private static String host;
+    private static String user;
     
     public Menu() {
         initComponents();
-        this.setLocationRelativeTo(null);
+        this.setLocationRelativeTo(null);        
     }
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
@@ -29,8 +30,10 @@ public class Menu extends javax.swing.JFrame {
         jLabel13 = new javax.swing.JLabel();
         labelModificar = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         setUndecorated(true);
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -188,6 +191,10 @@ public class Menu extends javax.swing.JFrame {
         });
         jPanel2.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 360, 80, 70));
 
+        jLabel9.setForeground(new java.awt.Color(0, 28, 72));
+        jLabel9.setText("Añadir Usuarios");
+        jPanel2.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 430, -1, -1));
+
         getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 30, 840, 460));
 
         pack();
@@ -288,6 +295,22 @@ public class Menu extends javax.swing.JFrame {
         new añadir().show();
     }//GEN-LAST:event_jLabel4MouseClicked
     
+    public String getUser() {
+        return user;
+    }
+
+    public void setUser(String user) {
+        Menu.user = user;
+    }
+
+    public String getHost() {
+        return host;
+    }
+
+    public void setHost(String host) {
+        this.host = host;
+    }
+        
     public static void main(String args[]) {
         
         try {
@@ -307,13 +330,13 @@ public class Menu extends javax.swing.JFrame {
             java.util.logging.Logger.getLogger(Menu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
-
+        
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Menu().setVisible(true);
+               new Menu().setVisible(true);
             }
-        });
+        });      
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
@@ -327,6 +350,7 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JLabel labelAlta;
     private javax.swing.JLabel labelModificar;

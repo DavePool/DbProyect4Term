@@ -1,0 +1,801 @@
+2018-04-19 02:45:57,472 [main] INFO  servidorChat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
+2018-04-19 02:45:57,472 [main] INFO  servidorChat.ServidorChat - Servidor a la espera de conexiones.
+2018-04-19 02:46:13,473 [Thread-0] INFO  servidorChat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
+2018-04-19 02:46:40,324 [main] INFO  servidorChat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
+2018-04-19 02:46:40,324 [main] INFO  servidorChat.ServidorChat - Servidor a la espera de conexiones.
+2018-04-19 02:46:48,910 [Thread-1] ERROR servidorChat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-04-19 02:46:51,811 [Thread-1] INFO  servidorChat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
+2018-04-19 02:48:08,698 [main] INFO  servidorChat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
+2018-04-19 02:48:08,698 [main] INFO  servidorChat.ServidorChat - Servidor a la espera de conexiones.
+2018-04-19 02:48:21,275 [main] INFO  servidorChat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
+2018-04-19 02:48:21,275 [main] INFO  servidorChat.ServidorChat - Servidor a la espera de conexiones.
+2018-04-19 02:48:31,048 [Thread-2] ERROR servidorChat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-04-19 02:48:31,048 [Thread-2] ERROR servidorChat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-04-19 02:48:44,541 [Thread-3] ERROR servidorChat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-04-19 02:48:44,541 [Thread-3] ERROR servidorChat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-04-19 02:48:58,030 [Thread-2] ERROR servidorChat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-04-19 02:48:58,045 [Thread-2] ERROR servidorChat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-04-19 02:49:26,590 [Thread-2] INFO  servidorChat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
+2018-04-19 02:49:32,424 [Thread-3] INFO  servidorChat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
+2018-04-19 02:54:59,444 [main] INFO  servidorChat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
+2018-04-19 02:54:59,444 [main] INFO  servidorChat.ServidorChat - Servidor a la espera de conexiones.
+2018-04-19 02:55:13,116 [Thread-4] ERROR servidorChat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-04-19 02:55:13,116 [Thread-4] ERROR servidorChat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-04-19 02:55:13,116 [Thread-4] ERROR servidorChat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-04-19 02:55:13,132 [Thread-4] ERROR servidorChat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-04-19 02:55:13,241 [Thread-4] ERROR servidorChat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-04-19 02:55:13,257 [Thread-4] ERROR servidorChat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-04-19 02:55:13,257 [Thread-4] ERROR servidorChat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-04-19 02:55:13,257 [Thread-4] ERROR servidorChat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-04-19 02:55:13,413 [Thread-4] ERROR servidorChat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-04-19 02:55:13,413 [Thread-4] ERROR servidorChat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-04-19 02:55:13,413 [Thread-4] ERROR servidorChat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-04-19 02:55:13,413 [Thread-4] ERROR servidorChat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-04-19 02:55:13,648 [Thread-4] ERROR servidorChat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-04-19 02:55:13,648 [Thread-4] ERROR servidorChat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-04-19 02:55:13,648 [Thread-4] ERROR servidorChat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-04-19 02:55:13,648 [Thread-4] ERROR servidorChat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-04-19 02:55:16,509 [Thread-4] INFO  servidorChat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
+2018-04-19 02:56:06,062 [main] INFO  servidorChat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
+2018-04-19 02:56:06,062 [main] INFO  servidorChat.ServidorChat - Servidor a la espera de conexiones.
+2018-04-19 02:56:56,841 [Thread-5] INFO  servidorChat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
+2018-04-19 02:57:22,309 [main] INFO  servidorChat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
+2018-04-19 02:57:22,309 [main] INFO  servidorChat.ServidorChat - Servidor a la espera de conexiones.
+2018-04-19 02:57:40,618 [main] INFO  servidorChat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
+2018-04-19 02:57:40,618 [main] INFO  servidorChat.ServidorChat - Servidor a la espera de conexiones.
+2018-04-19 02:58:18,243 [Thread-6] ERROR servidorChat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-04-19 02:58:18,243 [Thread-6] ERROR servidorChat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-04-19 02:58:18,259 [Thread-6] ERROR servidorChat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-04-19 02:58:18,259 [Thread-6] ERROR servidorChat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-04-19 02:58:18,259 [Thread-6] ERROR servidorChat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-04-19 02:58:18,259 [Thread-6] ERROR servidorChat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-04-19 02:58:39,543 [Thread-7] ERROR servidorChat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-04-19 02:58:39,543 [Thread-7] ERROR servidorChat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-04-19 02:58:39,543 [Thread-7] ERROR servidorChat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-04-19 02:58:39,558 [Thread-7] ERROR servidorChat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-04-19 02:58:39,558 [Thread-7] ERROR servidorChat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-04-19 02:58:39,558 [Thread-7] ERROR servidorChat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-04-19 18:07:14,233 [main] INFO  servidorChat.ServidorChat - Servidor a la espera de conexiones.
+2018-04-19 18:08:10,211 [main] INFO  servidorChat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
+2018-04-19 18:08:10,227 [main] INFO  servidorChat.ServidorChat - Servidor a la espera de conexiones.
+2018-04-19 18:08:24,162 [main] INFO  servidorChat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
+2018-04-19 18:08:24,162 [main] INFO  servidorChat.ServidorChat - Servidor a la espera de conexiones.
+2018-04-19 18:33:57,470 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.extensions.ExtensionsEnvironment - Instantiating extensions registry class net.sf.jasperreports.extensions.DefaultExtensionsRegistry
+2018-04-19 18:33:57,735 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.extensions.DefaultExtensionsRegistry - Loading registries for cache key sun.misc.Launcher$AppClassLoader@6d6f6e28
+2018-04-19 18:33:57,735 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.JRLoader - Found resource jasperreports_extension.properties at jar:file:/C:/Users/Dave/Documents/NetBeansProjects/JasperReport/jasperreports-5.1.2.jar!/jasperreports_extension.properties in classloader sun.misc.Launcher$AppClassLoader@6d6f6e28
+2018-04-19 18:33:57,751 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.extensions.DefaultExtensionsRegistry - Loading JasperReports extension properties resource jar:file:/C:/Users/Dave/Documents/NetBeansProjects/JasperReport/jasperreports-5.1.2.jar!/jasperreports_extension.properties
+2018-04-19 18:33:57,751 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.extensions.DefaultExtensionsRegistry - Instantiating registry of type net.sf.jasperreports.engine.style.PropertyStyleProviderExtensionFactory for property net.sf.jasperreports.extension.registry.factory.property.style.provider
+2018-04-19 18:33:57,751 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.extensions.DefaultExtensionsRegistry - Instantiating extensions registry for property.style.provider using factory class net.sf.jasperreports.engine.style.PropertyStyleProviderExtensionFactory
+2018-04-19 18:33:57,766 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.extensions.DefaultExtensionsRegistry - Instantiating registry of type net.sf.jasperreports.components.headertoolbar.HeaderToolbarConditionalStyleProviderExtensionFactory for property net.sf.jasperreports.extension.registry.factory.header.toolbar.style.provider
+2018-04-19 18:33:57,766 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.extensions.DefaultExtensionsRegistry - Instantiating extensions registry for header.toolbar.style.provider using factory class net.sf.jasperreports.components.headertoolbar.HeaderToolbarConditionalStyleProviderExtensionFactory
+2018-04-19 18:33:57,766 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.extensions.DefaultExtensionsRegistry - Instantiating registry of type net.sf.jasperreports.components.headertoolbar.HeaderToolbarParameterContributorExtensionFactory for property net.sf.jasperreports.extension.registry.factory.header.toolbar.parameter.contributor
+2018-04-19 18:33:57,766 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.extensions.DefaultExtensionsRegistry - Instantiating extensions registry for header.toolbar.parameter.contributor using factory class net.sf.jasperreports.components.headertoolbar.HeaderToolbarParameterContributorExtensionFactory
+2018-04-19 18:33:57,766 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.extensions.DefaultExtensionsRegistry - Instantiating registry of type net.sf.jasperreports.governors.GovernorExtensionsRegistryFactory for property net.sf.jasperreports.extension.registry.factory.governor
+2018-04-19 18:33:57,766 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.extensions.DefaultExtensionsRegistry - Instantiating extensions registry for governor using factory class net.sf.jasperreports.governors.GovernorExtensionsRegistryFactory
+2018-04-19 18:33:57,782 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.extensions.DefaultExtensionsRegistry - Instantiating registry of type net.sf.jasperreports.web.util.ContentTypeMappingExtensionsRegistryFactory for property net.sf.jasperreports.extension.registry.factory.content.type.mapping
+2018-04-19 18:33:57,782 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.extensions.DefaultExtensionsRegistry - Instantiating extensions registry for content.type.mapping using factory class net.sf.jasperreports.web.util.ContentTypeMappingExtensionsRegistryFactory
+2018-04-19 18:33:57,782 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.extensions.DefaultExtensionsRegistry - Instantiating registry of type net.sf.jasperreports.data.DefaultDataAdapterServiceExtensionsRegistryFactory for property net.sf.jasperreports.extension.registry.factory.data.adapter.services
+2018-04-19 18:33:57,782 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.extensions.DefaultExtensionsRegistry - Instantiating extensions registry for data.adapter.services using factory class net.sf.jasperreports.data.DefaultDataAdapterServiceExtensionsRegistryFactory
+2018-04-19 18:33:57,798 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.extensions.DefaultExtensionsRegistry - Instantiating registry of type net.sf.jasperreports.web.util.JacksonMappingExtensionsRegistryFactory for property net.sf.jasperreports.extension.registry.factory.jackson.mapping
+2018-04-19 18:33:57,798 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.extensions.DefaultExtensionsRegistry - Instantiating extensions registry for jackson.mapping using factory class net.sf.jasperreports.web.util.JacksonMappingExtensionsRegistryFactory
+2018-04-19 18:33:57,798 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.extensions.DefaultExtensionsRegistry - Instantiating registry of type net.sf.jasperreports.engine.query.SQLQueryClauseFunctionsExtensions for property net.sf.jasperreports.extension.registry.factory.sql.clause.functions
+2018-04-19 18:33:57,798 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.extensions.DefaultExtensionsRegistry - Instantiating extensions registry for sql.clause.functions using factory class net.sf.jasperreports.engine.query.SQLQueryClauseFunctionsExtensions
+2018-04-19 18:33:57,829 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.extensions.DefaultExtensionsRegistry - Instantiating registry of type net.sf.jasperreports.components.ComponentsExtensionsRegistryFactory for property net.sf.jasperreports.extension.registry.factory.components
+2018-04-19 18:33:57,829 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.extensions.DefaultExtensionsRegistry - Instantiating extensions registry for components using factory class net.sf.jasperreports.components.ComponentsExtensionsRegistryFactory
+2018-04-19 18:33:57,923 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.extensions.DefaultExtensionsRegistry - Instantiating registry of type net.sf.jasperreports.extensions.DefaultExtensionsRegistryFactory for property net.sf.jasperreports.extension.registry.factory.default
+2018-04-19 18:33:57,923 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.extensions.DefaultExtensionsRegistry - Instantiating extensions registry for default using factory class net.sf.jasperreports.extensions.DefaultExtensionsRegistryFactory
+2018-04-19 18:33:57,923 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.extensions.DefaultExtensionsRegistry - Instantiating registry of type net.sf.jasperreports.repo.DefaultRepositoryExtensionsRegistryFactory for property net.sf.jasperreports.extension.registry.factory.repository
+2018-04-19 18:33:57,923 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.extensions.DefaultExtensionsRegistry - Instantiating extensions registry for repository using factory class net.sf.jasperreports.repo.DefaultRepositoryExtensionsRegistryFactory
+2018-04-19 18:33:57,923 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.extensions.DefaultExtensionsRegistry - Instantiating registry of type net.sf.jasperreports.util.CastorMappingExtensionsRegistryFactory for property net.sf.jasperreports.extension.registry.factory.castor.mapping
+2018-04-19 18:33:57,923 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.extensions.DefaultExtensionsRegistry - Instantiating extensions registry for castor.mapping using factory class net.sf.jasperreports.util.CastorMappingExtensionsRegistryFactory
+2018-04-19 18:33:57,923 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.extensions.DefaultExtensionsRegistry - Instantiating registry of type net.sf.jasperreports.types.date.DateRangeQueryClauseExtensions for property net.sf.jasperreports.extension.registry.factory.date.range.clause.functions
+2018-04-19 18:33:57,923 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.extensions.DefaultExtensionsRegistry - Instantiating extensions registry for date.range.clause.functions using factory class net.sf.jasperreports.types.date.DateRangeQueryClauseExtensions
+2018-04-19 18:34:02,815 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRBaseFiller - Fill 1: created for null
+2018-04-19 18:34:03,002 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand - Origin {reportName: null, groupName: null,bandType: BACKGROUND} for band 1938808927
+2018-04-19 18:34:03,002 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand - Origin {reportName: null, groupName: null,bandType: TITLE} for band 1700416701
+2018-04-19 18:34:03,002 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand - Origin {reportName: null, groupName: null,bandType: PAGE_HEADER} for band 578661888
+2018-04-19 18:34:03,002 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand - Origin {reportName: null, groupName: null,bandType: COLUMN_HEADER} for band 245473452
+2018-04-19 18:34:03,018 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand - Origin {reportName: null, groupName: null,bandType: DETAIL} for band 816542811
+2018-04-19 18:34:03,018 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand - Origin {reportName: null, groupName: null,bandType: COLUMN_FOOTER} for band 1220444844
+2018-04-19 18:34:03,018 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand - Origin {reportName: null, groupName: null,bandType: PAGE_FOOTER} for band 1450174241
+2018-04-19 18:34:03,018 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRVerticalFiller - Filler 1 - pageHeight: 595, columnFooterOffsetY: 556, lastPageColumnFooterOffsetY: 595
+2018-04-19 18:34:03,018 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRBaseFiller - Fill 1: filling report
+2018-04-19 18:34:03,034 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillDataset - Fill 1: Creating SQL query executer
+2018-04-19 18:34:03,049 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.query.JRJdbcQueryExecuter - SQL query string: select Vehiculo.No_Motor, Vehiculo.Tipo,
+                     Vehiculo.Nombre, Vehiculo.Cilindraje,
+                     Rendimiento.Combustible_ciudad, Rendimiento.Combustible_Carretera,
+                     Rendimiento.Combustible_Combinado, Rendimiento.Potencia,
+                     Adicionales.No_Serie, Adicionales.Seguro,
+                     Adicionales.Mantenimiento_Correctivo,
+                     Adicionales.Robo, Adicionales.Corrosion, Adicionales.Pintura,
+                      Adicionales.Garantia,
+                     Adicionales.Respaldo from
+                     Vehiculo inner join Rendimiento on Vehiculo.No_Motor = Rendimiento.Vehiculo_No_Motor
+                    inner join Adicionales on Vehiculo.No_Motor = Adicionales.Vehiculo_No_Motor
+2018-04-19 18:34:03,096 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.base.JRBaseStyle@3c3b3f3f
+2018-04-19 18:34:03,096 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.base.JRBaseStyle@5b5eb3b4
+2018-04-19 18:34:03,096 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.base.JRBaseStyle@64966bbc
+2018-04-19 18:34:03,096 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.base.JRBaseStyle@74c2c97e
+2018-04-19 18:34:03,127 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRBaseFiller - Fill 1: adding page 1
+2018-04-19 18:34:03,127 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRVerticalFiller - Fill 1: background at 20
+2018-04-19 18:34:03,206 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font infos cache of size 2000
+2018-04-19 18:34:03,237 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - font java.awt.Font[family=Arial,name=Arial,style=bold,size=58] has complex layout false, leading 1.8974609
+2018-04-19 18:34:03,237 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: Arial, size: 58, style: 1} and element d9539196-aa18-4568-a75e-0e3200e85cc0
+2018-04-19 18:34:03,268 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:03,284 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 1 in width 104.0 with font java.awt.Font[family=Arial,name=Arial,style=bold,size=58]
+2018-04-19 18:34:03,331 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - exact line break index measured at 1
+2018-04-19 18:34:03,331 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 1 at width 32.2568359375
+2018-04-19 18:34:03,346 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateRectangle@761ce57
+2018-04-19 18:34:03,346 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateFrame@23e0c9ba
+2018-04-19 18:34:03,346 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateText@4db6dbf9
+2018-04-19 18:34:03,346 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@4db6dbf9 for (net.sf.jasperreports.engine.base.JRBaseStyle@64966bbc, {java.lang.Integer, null,null,null,null})
+2018-04-19 18:34:03,346 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateText@3ce2fbfc
+2018-04-19 18:34:03,346 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@3ce2fbfc for (net.sf.jasperreports.engine.base.JRBaseStyle@64966bbc, null)
+2018-04-19 18:34:03,346 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRBaseFiller - Adding evaluation of net.sf.jasperreports.engine.fill.JRTemplatePrintText@2770639a by net.sf.jasperreports.engine.fill.JRFillTextField@46246fc1 for evaluation {type: REPORT, group: null, band: 0}
+2018-04-19 18:34:03,362 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateLine@4195f31d
+2018-04-19 18:34:03,362 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateRectangle@761ce57 for object net.sf.jasperreports.engine.fill.JRTemplateRectangle@2cbe07f9
+2018-04-19 18:34:03,362 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRVerticalFiller - Fill 1: title at 20
+2018-04-19 18:34:03,362 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - font java.awt.Font[family=Arial,name=Arial,style=plain,size=54] has complex layout false, leading 1.7666016
+2018-04-19 18:34:03,362 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: Arial, size: 54, style: 0} and element 66ed29aa-cb44-42e4-8651-452dfb3a4234
+2018-04-19 18:34:03,362 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:03,362 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 18 in width 802.0 with font java.awt.Font[family=Arial,name=Arial,style=plain,size=54]
+2018-04-19 18:34:03,393 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - exact line break index measured at 18
+2018-04-19 18:34:03,393 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 18 at width 450.298828125
+2018-04-19 18:34:03,393 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - font java.awt.Font[family=Arial,name=Arial,style=plain,size=26] has complex layout false, leading 0.85058594
+2018-04-19 18:34:03,393 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: Arial, size: 26, style: 0} and element 44072525-1bb2-4bb9-89cf-816b7ad08815
+2018-04-19 18:34:03,393 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:03,393 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 19 in width 568.0 with font java.awt.Font[family=Arial,name=Arial,style=plain,size=26]
+2018-04-19 18:34:03,393 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - exact line break index measured at 19
+2018-04-19 18:34:03,393 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 19 at width 218.2451171875
+2018-04-19 18:34:03,393 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateText@79cc3433
+2018-04-19 18:34:03,409 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateText@6928357
+2018-04-19 18:34:03,409 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRVerticalFiller - Fill 1: column header at 124
+2018-04-19 18:34:03,409 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - font java.awt.Font[family=Arial,name=Arial,style=bold,size=12] has complex layout false, leading 0.39257812
+2018-04-19 18:34:03,409 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: Arial, size: 12, style: 1} and element a3219b3c-21bd-44de-a7a6-97bd709242e2
+2018-04-19 18:34:03,409 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:03,409 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 8 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=bold,size=12]
+2018-04-19 18:34:03,409 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - exact line break index measured at 6
+2018-04-19 18:34:03,409 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 6 at width 43.9921875
+2018-04-19 18:34:03,409 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 6 to 8 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=bold,size=12]
+2018-04-19 18:34:03,409 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 8 at width 12.0
+2018-04-19 18:34:03,409 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: Arial, size: 12, style: 1} and element 3c053ee0-db58-4c62-aa23-922faae1af4d
+2018-04-19 18:34:03,409 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:03,409 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 4 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=bold,size=12]
+2018-04-19 18:34:03,409 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 4 at width 25.32421875
+2018-04-19 18:34:03,409 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: Arial, size: 12, style: 1} and element b7ce446e-c9ce-49f3-adac-fc65e0f7414d
+2018-04-19 18:34:03,409 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:03,424 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 6 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=bold,size=12]
+2018-04-19 18:34:03,424 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 6 at width 45.33984375
+2018-04-19 18:34:03,424 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - exact line break index measured at 5
+2018-04-19 18:34:03,424 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 5 at width 38.666015625
+2018-04-19 18:34:03,424 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 5 to 6 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=bold,size=12]
+2018-04-19 18:34:03,424 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 6 at width 6.673828125
+2018-04-19 18:34:03,424 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: Arial, size: 12, style: 1} and element 801cec57-a19c-42d9-a518-9cb777a231c2
+2018-04-19 18:34:03,424 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:03,424 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 10 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=bold,size=12]
+2018-04-19 18:34:03,424 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 10 at width 54.6796875
+2018-04-19 18:34:03,424 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - exact line break index measured at 7
+2018-04-19 18:34:03,424 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 7 at width 37.998046875
+2018-04-19 18:34:03,424 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 7 to 10 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=bold,size=12]
+2018-04-19 18:34:03,424 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 10 at width 16.681640625
+2018-04-19 18:34:03,424 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: Arial, size: 12, style: 1} and element 4309bb9e-9218-4e0c-9333-6126aa1f23e3
+2018-04-19 18:34:03,424 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:03,424 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 18 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=bold,size=12]
+2018-04-19 18:34:03,440 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 18 at width 118.013671875
+2018-04-19 18:34:03,440 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - exact line break index measured at 5
+2018-04-19 18:34:03,440 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 5 at width 41.326171875
+2018-04-19 18:34:03,440 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 5 to 18 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=bold,size=12]
+2018-04-19 18:34:03,440 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 18 at width 76.6875
+2018-04-19 18:34:03,440 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - exact line break index measured at 12
+2018-04-19 18:34:03,440 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 12 at width 38.015625
+2018-04-19 18:34:03,440 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: Arial, size: 12, style: 1} and element 4e69b95b-dda8-474f-9be7-d8d08a1824b9
+2018-04-19 18:34:03,440 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:03,518 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 21 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=bold,size=12]
+2018-04-19 18:34:03,518 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 21 at width 132.708984375
+2018-04-19 18:34:03,518 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - exact line break index measured at 5
+2018-04-19 18:34:03,518 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 5 at width 41.326171875
+2018-04-19 18:34:03,518 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 5 to 21 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=bold,size=12]
+2018-04-19 18:34:03,518 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 21 at width 91.3828125
+2018-04-19 18:34:03,518 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - exact line break index measured at 12
+2018-04-19 18:34:03,518 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 12 at width 38.015625
+2018-04-19 18:34:03,518 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: Arial, size: 12, style: 1} and element 30445d8a-61d7-46e2-a21d-4018c1882212
+2018-04-19 18:34:03,518 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:03,518 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 21 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=bold,size=12]
+2018-04-19 18:34:03,534 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 21 at width 145.3359375
+2018-04-19 18:34:03,534 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - exact line break index measured at 5
+2018-04-19 18:34:03,534 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 5 at width 41.326171875
+2018-04-19 18:34:03,534 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 5 to 21 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=bold,size=12]
+2018-04-19 18:34:03,534 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 21 at width 104.009765625
+2018-04-19 18:34:03,534 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - exact line break index measured at 12
+2018-04-19 18:34:03,534 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 12 at width 38.015625
+2018-04-19 18:34:03,534 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: Arial, size: 12, style: 1} and element 0975ac61-d06f-40c1-9ec9-78ab1949a732
+2018-04-19 18:34:03,534 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:03,534 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 8 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=bold,size=12]
+2018-04-19 18:34:03,534 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 8 at width 50.015625
+2018-04-19 18:34:03,534 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - exact line break index measured at 7
+2018-04-19 18:34:03,534 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 7 at width 43.341796875
+2018-04-19 18:34:03,534 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 7 to 8 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=bold,size=12]
+2018-04-19 18:34:03,534 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 8 at width 6.673828125
+2018-04-19 18:34:03,534 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: Arial, size: 12, style: 1} and element 2a3526ec-30ec-442d-a8b7-11f8bf18b564
+2018-04-19 18:34:03,674 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:03,674 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 8 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=bold,size=12]
+2018-04-19 18:34:03,674 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 8 at width 52.025390625
+2018-04-19 18:34:03,674 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - exact line break index measured at 6
+2018-04-19 18:34:03,674 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 6 at width 42.017578125
+2018-04-19 18:34:03,674 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 6 to 8 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=bold,size=12]
+2018-04-19 18:34:03,690 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 8 at width 10.0078125
+2018-04-19 18:34:03,690 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: Arial, size: 12, style: 1} and element 0dbaa2a7-0ff6-4cc9-bf8d-9d3a9de4b579
+2018-04-19 18:34:03,690 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:03,690 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 6 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=bold,size=12]
+2018-04-19 18:34:03,690 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 6 at width 41.337890625
+2018-04-19 18:34:03,690 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: Arial, size: 12, style: 1} and element 2f3d99a4-64ae-4cd9-84fc-4a77bcb66c7d
+2018-04-19 18:34:03,690 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:03,690 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 24 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=bold,size=12]
+2018-04-19 18:34:03,690 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 24 at width 151.359375
+2018-04-19 18:34:03,690 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - exact line break index measured at 6
+2018-04-19 18:34:03,690 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 6 at width 42.0
+2018-04-19 18:34:03,690 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 6 to 24 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=bold,size=12]
+2018-04-19 18:34:03,690 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 24 at width 109.359375
+2018-04-19 18:34:03,690 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - exact line break index measured at 13
+2018-04-19 18:34:03,690 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 13 at width 42.66796875
+2018-04-19 18:34:03,690 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: Arial, size: 12, style: 1} and element 64d938b6-7480-43aa-a450-1032179cd276
+2018-04-19 18:34:03,690 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:03,690 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 4 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=bold,size=12]
+2018-04-19 18:34:03,690 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 4 at width 30.65625
+2018-04-19 18:34:03,690 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: Arial, size: 12, style: 1} and element 04b8ae16-2ebd-4201-88ea-cd51df677373
+2018-04-19 18:34:03,815 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:03,815 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 9 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=bold,size=12]
+2018-04-19 18:34:03,815 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 9 at width 57.333984375
+2018-04-19 18:34:03,815 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - exact line break index measured at 7
+2018-04-19 18:34:03,815 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 7 at width 42.673828125
+2018-04-19 18:34:03,815 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 7 to 9 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=bold,size=12]
+2018-04-19 18:34:03,815 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 9 at width 14.66015625
+2018-04-19 18:34:03,815 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: Arial, size: 12, style: 1} and element 930319c0-a308-48b3-81d5-1c66db5d507d
+2018-04-19 18:34:03,815 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:03,815 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 7 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=bold,size=12]
+2018-04-19 18:34:03,815 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 7 at width 41.337890625
+2018-04-19 18:34:03,815 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: Arial, size: 12, style: 1} and element 9efd84f0-3383-42f8-89ea-20e666d22f6e
+2018-04-19 18:34:03,815 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:03,815 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 8 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=bold,size=12]
+2018-04-19 18:34:03,815 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 8 at width 48.685546875
+2018-04-19 18:34:03,815 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - exact line break index measured at 7
+2018-04-19 18:34:03,815 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 7 at width 42.01171875
+2018-04-19 18:34:03,815 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 7 to 8 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=bold,size=12]
+2018-04-19 18:34:03,815 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 8 at width 6.673828125
+2018-04-19 18:34:03,815 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: Arial, size: 12, style: 1} and element 6071ce3a-43a8-4e34-9491-3c0390291333
+2018-04-19 18:34:03,815 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:03,815 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 8 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=bold,size=12]
+2018-04-19 18:34:03,815 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 8 at width 54.01171875
+2018-04-19 18:34:03,831 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - exact line break index measured at 6
+2018-04-19 18:34:03,831 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 6 at width 39.3515625
+2018-04-19 18:34:03,831 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 6 to 8 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=bold,size=12]
+2018-04-19 18:34:03,862 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 8 at width 14.66015625
+2018-04-19 18:34:03,862 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateFrame@7fd7da92
+2018-04-19 18:34:03,862 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateText@5f56d
+2018-04-19 18:34:03,862 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@5f56d for object net.sf.jasperreports.engine.fill.JRTemplateText@121f4601
+2018-04-19 18:34:03,862 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@5f56d for object net.sf.jasperreports.engine.fill.JRTemplateText@65f596f4
+2018-04-19 18:34:03,862 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@5f56d for object net.sf.jasperreports.engine.fill.JRTemplateText@24b7c392
+2018-04-19 18:34:03,862 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@5f56d for object net.sf.jasperreports.engine.fill.JRTemplateText@b36e4f4
+2018-04-19 18:34:03,862 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@5f56d for object net.sf.jasperreports.engine.fill.JRTemplateText@637194dd
+2018-04-19 18:34:03,862 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@5f56d for object net.sf.jasperreports.engine.fill.JRTemplateText@2a7afc71
+2018-04-19 18:34:03,862 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@5f56d for object net.sf.jasperreports.engine.fill.JRTemplateText@30cb11ff
+2018-04-19 18:34:03,862 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@5f56d for object net.sf.jasperreports.engine.fill.JRTemplateText@ce65256
+2018-04-19 18:34:03,924 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@5f56d for object net.sf.jasperreports.engine.fill.JRTemplateText@635ee86b
+2018-04-19 18:34:03,924 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@5f56d for object net.sf.jasperreports.engine.fill.JRTemplateText@1eba1905
+2018-04-19 18:34:03,924 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@5f56d for object net.sf.jasperreports.engine.fill.JRTemplateText@7616a7c4
+2018-04-19 18:34:03,924 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@5f56d for object net.sf.jasperreports.engine.fill.JRTemplateText@48dc3fb2
+2018-04-19 18:34:03,924 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@5f56d for object net.sf.jasperreports.engine.fill.JRTemplateText@5cd58b72
+2018-04-19 18:34:03,924 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@5f56d for object net.sf.jasperreports.engine.fill.JRTemplateText@12e9d3dc
+2018-04-19 18:34:03,924 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@5f56d for object net.sf.jasperreports.engine.fill.JRTemplateText@51026ec2
+2018-04-19 18:34:03,924 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRVerticalFiller - Fill 1: detail at 149
+2018-04-19 18:34:03,924 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - font java.awt.Font[family=Arial,name=Arial,style=plain,size=12] has complex layout false, leading 0.39257812
+2018-04-19 18:34:03,956 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: Arial, size: 12, style: 0} and element 9d17d09f-75fa-4825-ad27-8e9f5bd8d538
+2018-04-19 18:34:03,956 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:03,956 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 4 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=plain,size=12]
+2018-04-19 18:34:03,956 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - exact line break index measured at 4
+2018-04-19 18:34:03,956 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 4 at width 26.6953125
+2018-04-19 18:34:03,956 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: Arial, size: 12, style: 0} and element 6efd2517-2d2b-4c33-a594-5c94b08893de
+2018-04-19 18:34:03,956 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:03,956 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 5 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=plain,size=12]
+2018-04-19 18:34:03,956 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 5 at width 26.677734375
+2018-04-19 18:34:03,956 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: Arial, size: 12, style: 0} and element d49a8d91-e28a-4909-a245-4e744b59d956
+2018-04-19 18:34:03,956 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:03,956 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 5 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=plain,size=12]
+2018-04-19 18:34:03,956 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 4 at width 22.0078125
+2018-04-19 18:34:03,956 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: Arial, size: 12, style: 0} and element e04f2741-0e7a-43e0-8e58-59666ad3b44a
+2018-04-19 18:34:03,956 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:03,956 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 1 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=plain,size=12]
+2018-04-19 18:34:03,956 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 1 at width 6.673828125
+2018-04-19 18:34:03,956 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: Arial, size: 12, style: 0} and element 54472de4-1ad4-4575-8290-ad1ba1c0db8a
+2018-04-19 18:34:03,956 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:03,956 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 3 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=plain,size=12]
+2018-04-19 18:34:03,956 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 3 at width 20.021484375
+2018-04-19 18:34:03,956 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: Arial, size: 12, style: 0} and element bd30983c-21c8-483b-a592-4b50c260c641
+2018-04-19 18:34:03,956 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:03,956 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 3 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=plain,size=12]
+2018-04-19 18:34:04,143 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 3 at width 20.021484375
+2018-04-19 18:34:04,143 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: Arial, size: 12, style: 0} and element f0b71c9d-51c5-45c5-9002-4b285430bcb9
+2018-04-19 18:34:04,143 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:04,143 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 2 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=plain,size=12]
+2018-04-19 18:34:04,143 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 2 at width 13.34765625
+2018-04-19 18:34:04,143 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: Arial, size: 12, style: 0} and element 825e3052-04c0-45ae-a509-0d5e713c57fd
+2018-04-19 18:34:04,143 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:04,143 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 3 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=plain,size=12]
+2018-04-19 18:34:04,143 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 3 at width 20.021484375
+2018-04-19 18:34:04,159 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: Arial, size: 12, style: 0} and element 1379d91e-05a1-405c-9ffd-a5e1cb041c64
+2018-04-19 18:34:04,159 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:04,159 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 5 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=plain,size=12]
+2018-04-19 18:34:04,159 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 5 at width 33.369140625
+2018-04-19 18:34:04,159 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: Arial, size: 12, style: 0} and element a81b45fc-4f30-4077-bc87-919d4083a09d
+2018-04-19 18:34:04,159 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:04,159 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 13 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=plain,size=12]
+2018-04-19 18:34:04,159 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 13 at width 68.6953125
+2018-04-19 18:34:04,159 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 6 at width 33.3515625
+2018-04-19 18:34:04,159 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 7 to 13 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=plain,size=12]
+2018-04-19 18:34:04,159 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 13 at width 32.009765625
+2018-04-19 18:34:04,159 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: Arial, size: 12, style: 0} and element 099a0bd4-4ee5-4f8a-a59e-584cbed972ef
+2018-04-19 18:34:04,159 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:04,159 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 14 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=plain,size=12]
+2018-04-19 18:34:04,159 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 14 at width 88.0546875
+2018-04-19 18:34:04,268 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 6 at width 36.029296875
+2018-04-19 18:34:04,268 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 7 to 14 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=plain,size=12]
+2018-04-19 18:34:04,268 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 14 at width 48.69140625
+2018-04-19 18:34:04,268 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - exact line break index measured at 13
+2018-04-19 18:34:04,268 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 13 at width 42.69140625
+2018-04-19 18:34:04,268 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: Arial, size: 12, style: 0} and element b3958215-2886-4325-936d-4e8d0dc80ca8
+2018-04-19 18:34:04,268 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:04,268 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 4 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=plain,size=12]
+2018-04-19 18:34:04,268 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 4 at width 20.677734375
+2018-04-19 18:34:04,268 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: Arial, size: 12, style: 0} and element ceb41426-d4d6-40a1-a66b-2651fea84a10
+2018-04-19 18:34:04,268 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:04,268 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 4 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=plain,size=12]
+2018-04-19 18:34:04,268 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 4 at width 20.677734375
+2018-04-19 18:34:04,268 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: Arial, size: 12, style: 0} and element 5a58ee93-4e28-4201-b641-cec14fa5ada7
+2018-04-19 18:34:04,268 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:04,268 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 13 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=plain,size=12]
+2018-04-19 18:34:04,268 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 13 at width 66.03515625
+2018-04-19 18:34:04,268 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - exact line break index measured at 8
+2018-04-19 18:34:04,268 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 8 at width 37.34765625
+2018-04-19 18:34:04,268 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 8 to 13 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=plain,size=12]
+2018-04-19 18:34:04,268 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 13 at width 28.6875
+2018-04-19 18:34:04,268 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: Arial, size: 12, style: 0} and element 9c058259-e1af-45d6-b630-6a6ad91f44ea
+2018-04-19 18:34:04,268 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:04,268 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 6 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=plain,size=12]
+2018-04-19 18:34:04,268 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 6 at width 37.359375
+2018-04-19 18:34:04,315 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: Arial, size: 12, style: 0} and element 9673adb4-11d7-4d45-ab16-a1f20740c7a3
+2018-04-19 18:34:04,315 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:04,315 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 4 in width 44.0 with font java.awt.Font[family=Arial,name=Arial,style=plain,size=12]
+2018-04-19 18:34:04,315 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 4 at width 20.677734375
+2018-04-19 18:34:04,315 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateFrame@8f47097
+2018-04-19 18:34:04,315 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateText@545f3566
+2018-04-19 18:34:04,315 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@545f3566 for (net.sf.jasperreports.engine.base.JRBaseStyle@74c2c97e, {java.lang.Integer, null,null,null,null})
+2018-04-19 18:34:04,315 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateText@16692551
+2018-04-19 18:34:04,315 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@16692551 for (net.sf.jasperreports.engine.base.JRBaseStyle@74c2c97e, null)
+2018-04-19 18:34:04,315 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@16692551 for object net.sf.jasperreports.engine.fill.JRTemplateText@391b7871
+2018-04-19 18:34:04,315 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@16692551 for (net.sf.jasperreports.engine.base.JRBaseStyle@74c2c97e, null)
+2018-04-19 18:34:04,315 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@545f3566 for object net.sf.jasperreports.engine.fill.JRTemplateText@12c0d70d
+2018-04-19 18:34:04,315 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@545f3566 for (net.sf.jasperreports.engine.base.JRBaseStyle@74c2c97e, {java.lang.Integer, null,null,null,null})
+2018-04-19 18:34:04,315 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@16692551 for object net.sf.jasperreports.engine.fill.JRTemplateText@3f192436
+2018-04-19 18:34:04,315 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@16692551 for (net.sf.jasperreports.engine.base.JRBaseStyle@74c2c97e, null)
+2018-04-19 18:34:04,315 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@16692551 for object net.sf.jasperreports.engine.fill.JRTemplateText@6085cd29
+2018-04-19 18:34:04,315 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@16692551 for (net.sf.jasperreports.engine.base.JRBaseStyle@74c2c97e, null)
+2018-04-19 18:34:04,315 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@16692551 for object net.sf.jasperreports.engine.fill.JRTemplateText@23ff9b8
+2018-04-19 18:34:04,315 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@16692551 for (net.sf.jasperreports.engine.base.JRBaseStyle@74c2c97e, null)
+2018-04-19 18:34:04,315 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@16692551 for object net.sf.jasperreports.engine.fill.JRTemplateText@16532e4d
+2018-04-19 18:34:04,393 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@16692551 for (net.sf.jasperreports.engine.base.JRBaseStyle@74c2c97e, null)
+2018-04-19 18:34:04,409 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@545f3566 for object net.sf.jasperreports.engine.fill.JRTemplateText@609d9025
+2018-04-19 18:34:04,409 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@545f3566 for (net.sf.jasperreports.engine.base.JRBaseStyle@74c2c97e, {java.lang.Integer, null,null,null,null})
+2018-04-19 18:34:04,409 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@16692551 for object net.sf.jasperreports.engine.fill.JRTemplateText@2ebff59a
+2018-04-19 18:34:04,409 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@16692551 for (net.sf.jasperreports.engine.base.JRBaseStyle@74c2c97e, null)
+2018-04-19 18:34:04,409 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@16692551 for object net.sf.jasperreports.engine.fill.JRTemplateText@53302bcc
+2018-04-19 18:34:04,409 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@16692551 for (net.sf.jasperreports.engine.base.JRBaseStyle@74c2c97e, null)
+2018-04-19 18:34:04,409 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateText@5c1e56a1
+2018-04-19 18:34:04,409 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@5c1e56a1 for (net.sf.jasperreports.engine.base.JRBaseStyle@74c2c97e, {java.lang.Boolean, null,null,null,null})
+2018-04-19 18:34:04,409 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@5c1e56a1 for object net.sf.jasperreports.engine.fill.JRTemplateText@508ee9bf
+2018-04-19 18:34:04,409 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@5c1e56a1 for (net.sf.jasperreports.engine.base.JRBaseStyle@74c2c97e, {java.lang.Boolean, null,null,null,null})
+2018-04-19 18:34:04,409 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@16692551 for object net.sf.jasperreports.engine.fill.JRTemplateText@1ccd511
+2018-04-19 18:34:04,409 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@16692551 for (net.sf.jasperreports.engine.base.JRBaseStyle@74c2c97e, null)
+2018-04-19 18:34:04,409 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@16692551 for object net.sf.jasperreports.engine.fill.JRTemplateText@53f0f0af
+2018-04-19 18:34:04,409 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@16692551 for (net.sf.jasperreports.engine.base.JRBaseStyle@74c2c97e, null)
+2018-04-19 18:34:04,409 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@5c1e56a1 for object net.sf.jasperreports.engine.fill.JRTemplateText@7d750f2e
+2018-04-19 18:34:04,409 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@5c1e56a1 for (net.sf.jasperreports.engine.base.JRBaseStyle@74c2c97e, {java.lang.Boolean, null,null,null,null})
+2018-04-19 18:34:04,409 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateLine@5a91d22e
+2018-04-19 18:34:04,409 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRVerticalFiller - Fill 1: page footer at 556
+2018-04-19 18:34:04,565 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: Arial, size: 12, style: 0} and element 0c8308e1-d0ed-4d61-a9cc-a3febb3020b9
+2018-04-19 18:34:04,565 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:04,565 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 20 in width 131.0 with font java.awt.Font[family=Arial,name=Arial,style=plain,size=12]
+2018-04-19 18:34:04,565 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 20 at width 107.408203125
+2018-04-19 18:34:04,565 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - font java.awt.Font[family=SansSerif,name=SansSerif,style=plain,size=12] has complex layout false, leading 0.39257812
+2018-04-19 18:34:04,565 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 12, style: 0} and element 326b5aa3-01a6-4f11-b142-56984d7be8c0
+2018-04-19 18:34:04,565 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:04,565 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 23 in width 267.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=plain,size=12]
+2018-04-19 18:34:04,565 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - exact line break index measured at 23
+2018-04-19 18:34:04,565 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 23 at width 118.728515625
+2018-04-19 18:34:04,581 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateText@27392b4a
+2018-04-19 18:34:04,581 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@27392b4a for (net.sf.jasperreports.engine.base.JRBaseStyle@64966bbc, {java.util.Date, EEEEE dd MMMMM yyyy,null,null,null})
+2018-04-19 18:34:04,581 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateText@18ec3f59
+2018-04-19 18:34:04,581 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.ElementEvaluationAction - resolving element net.sf.jasperreports.engine.fill.JRTemplatePrintText@2770639a by net.sf.jasperreports.engine.fill.JRFillTextField@46246fc1 on {type: REPORT, group: null, band: 0}
+2018-04-19 18:34:04,581 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - font java.awt.Font[family=Arial,name=Arial,style=plain,size=16] has complex layout false, leading 0.5234375
+2018-04-19 18:34:04,581 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: Arial, size: 16, style: 0} and element bf98b3a1-8161-43c9-a153-73aaa3cf083e
+2018-04-19 18:34:04,581 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:04,581 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 1 in width 96.0 with font java.awt.Font[family=Arial,name=Arial,style=plain,size=16]
+2018-04-19 18:34:04,581 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - exact line break index measured at 1
+2018-04-19 18:34:04,581 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 1 at width 8.8984375
+2018-04-19 18:34:04,581 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateText@4dc9a338
+2018-04-19 18:34:04,581 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@4dc9a338 for (net.sf.jasperreports.engine.base.JRBaseStyle@64966bbc, {java.lang.Integer, null,null,null,null})
+2018-04-19 18:34:04,581 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRBaseFiller - Fill 1: ended
+2018-04-19 18:34:04,659 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillDataset - Fill 1: closing query executer
+2018-04-19 18:34:40,720 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRBaseFiller - Fill 1: created for null
+2018-04-19 18:34:40,735 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand - Origin {reportName: null, groupName: null,bandType: BACKGROUND} for band 1149933284
+2018-04-19 18:34:40,735 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand - Origin {reportName: null, groupName: null,bandType: TITLE} for band 799425135
+2018-04-19 18:34:40,735 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand - Origin {reportName: null, groupName: null,bandType: PAGE_HEADER} for band 136893458
+2018-04-19 18:34:40,735 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand - Origin {reportName: null, groupName: null,bandType: COLUMN_HEADER} for band 130729148
+2018-04-19 18:34:40,735 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand - Origin {reportName: null, groupName: null,bandType: DETAIL} for band 397499785
+2018-04-19 18:34:40,735 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand - Origin {reportName: null, groupName: null,bandType: COLUMN_FOOTER} for band 1363626601
+2018-04-19 18:34:40,735 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand - Origin {reportName: null, groupName: null,bandType: PAGE_FOOTER} for band 906378415
+2018-04-19 18:34:40,735 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRVerticalFiller - Filler 1 - pageHeight: 842, columnFooterOffsetY: 805, lastPageColumnFooterOffsetY: 822
+2018-04-19 18:34:40,735 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRBaseFiller - Fill 1: filling report
+2018-04-19 18:34:40,735 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillDataset - Fill 1: Creating SQL query executer
+2018-04-19 18:34:40,735 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.query.JRJdbcQueryExecuter - SQL query string: select Vehiculo.Tipo, Vehiculo.Nombre, Servicio.15milkm, Servicio.30milkm, Servicio.45milkm, Servicio.60milkm from Vehiculo inner join Servicio on Vehiculo.No_Motor = Servicio.Vehiculo_No_Motor
+2018-04-19 18:34:40,751 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRBaseFiller - Fill 1: adding page 1
+2018-04-19 18:34:40,751 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRVerticalFiller - Fill 1: title at 20
+2018-04-19 18:34:40,751 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font infos cache of size 2000
+2018-04-19 18:34:40,751 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - font java.awt.Font[family=SansSerif,name=SansSerif,style=bold,size=34] has complex layout false, leading 1.1123047
+2018-04-19 18:34:40,751 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 34, style: 1} and element e6eeae21-341f-4b24-b0a1-896e2565ccef
+2018-04-19 18:34:40,751 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:40,751 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 10 in width 234.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=bold,size=34]
+2018-04-19 18:34:40,751 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - exact line break index measured at 10
+2018-04-19 18:34:40,751 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 10 at width 171.892578125
+2018-04-19 18:34:40,751 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - font java.awt.Font[family=SansSerif,name=SansSerif,style=plain,size=14] has complex layout false, leading 0.4580078
+2018-04-19 18:34:40,751 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 14, style: 0} and element dbb12845-7a67-47a9-b726-fa825462b7b4
+2018-04-19 18:34:40,751 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:40,751 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 22 in width 180.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=plain,size=14]
+2018-04-19 18:34:40,751 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - exact line break index measured at 22
+2018-04-19 18:34:40,767 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 22 at width 140.0888671875
+2018-04-19 18:34:40,767 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateFrame@2a6abba4
+2018-04-19 18:34:40,767 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateText@56d32e72
+2018-04-19 18:34:40,767 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateText@3b2aa170
+2018-04-19 18:34:40,767 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRVerticalFiller - Fill 1: page header at 92
+2018-04-19 18:34:40,767 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRVerticalFiller - Fill 1: column header at 105
+2018-04-19 18:34:40,767 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - font java.awt.Font[family=SansSerif,name=SansSerif,style=bold,size=14] has complex layout false, leading 0.4580078
+2018-04-19 18:34:40,767 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 14, style: 1} and element 34810d77-f624-4ac7-a752-696dd30058d7
+2018-04-19 18:34:40,767 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:40,767 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 4 in width 92.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=bold,size=14]
+2018-04-19 18:34:40,767 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - exact line break index measured at 4
+2018-04-19 18:34:40,767 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 4 at width 29.544921875
+2018-04-19 18:34:40,767 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 14, style: 1} and element 773efbf1-f242-48d8-879e-a4ad9f03394d
+2018-04-19 18:34:40,767 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:40,767 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 6 in width 92.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=bold,size=14]
+2018-04-19 18:34:40,767 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 6 at width 52.896484375
+2018-04-19 18:34:40,767 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 14, style: 1} and element 56a6828b-63fd-4bca-acff-fd7713c81a19
+2018-04-19 18:34:40,767 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:40,798 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 7 in width 92.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=bold,size=14]
+2018-04-19 18:34:40,798 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 7 at width 56.0341796875
+2018-04-19 18:34:40,798 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 14, style: 1} and element 3df8952e-16cb-4cf0-b132-8a9d9755cc99
+2018-04-19 18:34:40,798 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:40,798 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 7 in width 92.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=bold,size=14]
+2018-04-19 18:34:40,798 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 7 at width 56.0341796875
+2018-04-19 18:34:40,798 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 14, style: 1} and element ea017fed-4dd8-4832-a553-729242fa52ce
+2018-04-19 18:34:40,798 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:40,798 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 7 in width 92.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=bold,size=14]
+2018-04-19 18:34:40,798 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 7 at width 56.0341796875
+2018-04-19 18:34:40,798 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 14, style: 1} and element 788c2e59-b60c-4f31-8a8d-782a31caa03d
+2018-04-19 18:34:40,798 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:40,798 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 7 in width 92.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=bold,size=14]
+2018-04-19 18:34:40,798 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 7 at width 56.0341796875
+2018-04-19 18:34:40,798 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateLine@6d21b1d3
+2018-04-19 18:34:40,798 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateText@552c6a70
+2018-04-19 18:34:40,798 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@552c6a70 for object net.sf.jasperreports.engine.fill.JRTemplateText@5ac53a84
+2018-04-19 18:34:40,798 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@552c6a70 for object net.sf.jasperreports.engine.fill.JRTemplateText@43726b2c
+2018-04-19 18:34:40,798 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@552c6a70 for object net.sf.jasperreports.engine.fill.JRTemplateText@23bdf5b8
+2018-04-19 18:34:40,798 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@552c6a70 for object net.sf.jasperreports.engine.fill.JRTemplateText@15747455
+2018-04-19 18:34:40,798 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@552c6a70 for object net.sf.jasperreports.engine.fill.JRTemplateText@66967d65
+2018-04-19 18:34:40,798 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRVerticalFiller - Fill 1: detail at 126
+2018-04-19 18:34:40,845 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 14, style: 0} and element 4d9670c8-c9de-4482-a55a-b7a28d17225d
+2018-04-19 18:34:40,845 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:40,845 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 5 in width 92.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=plain,size=14]
+2018-04-19 18:34:40,845 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 5 at width 31.1240234375
+2018-04-19 18:34:40,845 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 14, style: 0} and element bb46e355-c572-4ff9-b956-1278fab70c76
+2018-04-19 18:34:40,845 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:40,845 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 5 in width 92.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=plain,size=14]
+2018-04-19 18:34:40,845 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 4 at width 25.67578125
+2018-04-19 18:34:40,845 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 14, style: 0} and element 456fcf46-0acf-412b-9e42-ecc5d59b4b7b
+2018-04-19 18:34:40,845 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:40,845 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 4 in width 92.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=plain,size=14]
+2018-04-19 18:34:40,845 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 4 at width 27.248046875
+2018-04-19 18:34:40,845 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 14, style: 0} and element 7bd258fa-d017-433b-9d5e-96ec93564d23
+2018-04-19 18:34:40,845 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:40,845 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 6 in width 92.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=plain,size=14]
+2018-04-19 18:34:40,845 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 6 at width 42.8203125
+2018-04-19 18:34:40,845 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 14, style: 0} and element eddd1b42-42bc-48ba-bf40-cae6726dc598
+2018-04-19 18:34:40,845 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:40,845 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 5 in width 92.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=plain,size=14]
+2018-04-19 18:34:40,860 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 5 at width 35.0341796875
+2018-04-19 18:34:40,860 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 14, style: 0} and element 317498ca-4776-4874-9710-8b758872d120
+2018-04-19 18:34:40,860 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:40,860 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 3 in width 92.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=plain,size=14]
+2018-04-19 18:34:40,907 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 3 at width 19.4619140625
+2018-04-19 18:34:40,907 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateLine@36ed4190
+2018-04-19 18:34:40,907 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateText@7ab172c0
+2018-04-19 18:34:40,907 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@7ab172c0 for (null, null)
+2018-04-19 18:34:40,907 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@7ab172c0 for object net.sf.jasperreports.engine.fill.JRTemplateText@4cd1671f
+2018-04-19 18:34:40,907 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@7ab172c0 for (null, null)
+2018-04-19 18:34:40,907 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateText@19f946b5
+2018-04-19 18:34:40,907 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@19f946b5 for (null, {java.lang.Float, null,null,null,null})
+2018-04-19 18:34:40,907 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@19f946b5 for object net.sf.jasperreports.engine.fill.JRTemplateText@45c465db
+2018-04-19 18:34:40,907 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@19f946b5 for (null, {java.lang.Float, null,null,null,null})
+2018-04-19 18:34:40,907 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@19f946b5 for object net.sf.jasperreports.engine.fill.JRTemplateText@349228d1
+2018-04-19 18:34:40,907 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@19f946b5 for (null, {java.lang.Float, null,null,null,null})
+2018-04-19 18:34:40,907 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@19f946b5 for object net.sf.jasperreports.engine.fill.JRTemplateText@73bc48c3
+2018-04-19 18:34:40,907 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@19f946b5 for (null, {java.lang.Float, null,null,null,null})
+2018-04-19 18:34:40,907 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRVerticalFiller - Fill 1: page footer at 805
+2018-04-19 18:34:40,907 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - font java.awt.Font[family=SansSerif,name=SansSerif,style=plain,size=10] has complex layout false, leading 0.32714844
+2018-04-19 18:34:40,907 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 10, style: 0} and element ddc4e4fa-2e37-4750-9fee-ce799500bb70
+2018-04-19 18:34:40,907 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:40,907 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 9 in width 515.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=plain,size=10]
+2018-04-19 18:34:40,907 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - exact line break index measured at 9
+2018-04-19 18:34:40,907 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 9 at width 42.8125
+2018-04-19 18:34:40,907 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 10, style: 0} and element 71b67468-c49e-42c7-a61c-8e4b105a2743
+2018-04-19 18:34:40,907 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:41,001 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 20 in width 100.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=plain,size=10]
+2018-04-19 18:34:41,001 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 20 at width 89.5068359375
+2018-04-19 18:34:41,001 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateText@490a7b74
+2018-04-19 18:34:41,001 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@490a7b74 for (null, null)
+2018-04-19 18:34:41,001 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateText@76a62e07
+2018-04-19 18:34:41,001 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@76a62e07 for (null, null)
+2018-04-19 18:34:41,001 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRBaseFiller - Adding evaluation of net.sf.jasperreports.engine.fill.JRTemplatePrintText@67b03479 by net.sf.jasperreports.engine.fill.JRFillTextField@3a3606bb for evaluation {type: REPORT, group: null, band: 0}
+2018-04-19 18:34:41,001 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateText@676ccf5c
+2018-04-19 18:34:41,001 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@676ccf5c for (null, {java.util.Date, EEEEE dd MMMMM yyyy,null,null,null})
+2018-04-19 18:34:41,064 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.ElementEvaluationAction - resolving element net.sf.jasperreports.engine.fill.JRTemplatePrintText@67b03479 by net.sf.jasperreports.engine.fill.JRFillTextField@3a3606bb on {type: REPORT, group: null, band: 0}
+2018-04-19 18:34:41,064 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 10, style: 0} and element dd8a45f8-7341-4f0b-b112-abfbb2d9b7a0
+2018-04-19 18:34:41,079 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:34:41,079 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 2 in width 40.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=plain,size=10]
+2018-04-19 18:34:41,079 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 2 at width 8.33984375
+2018-04-19 18:34:41,079 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRBaseFiller - Fill 1: ended
+2018-04-19 18:34:41,079 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillDataset - Fill 1: closing query executer
+2018-04-19 18:35:00,644 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRBaseFiller - Fill 1: created for null
+2018-04-19 18:35:00,644 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand - Origin {reportName: null, groupName: No_Motor,bandType: GROUP_HEADER} for band 1851255353
+2018-04-19 18:35:00,644 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand - Origin {reportName: null, groupName: No_Motor,bandType: GROUP_FOOTER} for band 758777162
+2018-04-19 18:35:00,644 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand - Origin {reportName: null, groupName: null,bandType: BACKGROUND} for band 1428965692
+2018-04-19 18:35:00,644 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand - Origin {reportName: null, groupName: null,bandType: TITLE} for band 1809824400
+2018-04-19 18:35:00,644 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand - Origin {reportName: null, groupName: null,bandType: PAGE_HEADER} for band 89222831
+2018-04-19 18:35:00,644 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand - Origin {reportName: null, groupName: null,bandType: COLUMN_HEADER} for band 364905925
+2018-04-19 18:35:00,644 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand - Origin {reportName: null, groupName: null,bandType: DETAIL} for band 1547433131
+2018-04-19 18:35:00,644 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand - Origin {reportName: null, groupName: null,bandType: COLUMN_FOOTER} for band 152934921
+2018-04-19 18:35:00,644 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand - Origin {reportName: null, groupName: null,bandType: PAGE_FOOTER} for band 1663832858
+2018-04-19 18:35:00,660 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRVerticalFiller - Filler 1 - pageHeight: 842, columnFooterOffsetY: 805, lastPageColumnFooterOffsetY: 822
+2018-04-19 18:35:00,660 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRBaseFiller - Fill 1: filling report
+2018-04-19 18:35:00,660 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillDataset - Fill 1: Creating sql query executer
+2018-04-19 18:35:00,660 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.query.JRJdbcQueryExecuter - SQL query string: SELECT * FROM vehiculo where No_Motor=?
+2018-04-19 18:35:00,660 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.query.JRJdbcQueryExecuter - Parameter #1 (parameter1 of type java.lang.Integer): 2345
+2018-04-19 18:35:00,660 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRBaseFiller - Fill 1: adding page 1
+2018-04-19 18:35:00,660 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRVerticalFiller - Fill 1: title at 20
+2018-04-19 18:35:00,660 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font infos cache of size 2000
+2018-04-19 18:35:00,660 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - font java.awt.Font[family=SansSerif,name=SansSerif,style=bold,size=34] has complex layout false, leading 1.1123047
+2018-04-19 18:35:00,660 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 34, style: 1} and element caa510d7-568d-4227-bb89-eb254c7683d7
+2018-04-19 18:35:00,660 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:35:00,660 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 8 in width 234.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=bold,size=34]
+2018-04-19 18:35:00,660 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - exact line break index measured at 8
+2018-04-19 18:35:00,660 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 8 at width 141.6943359375
+2018-04-19 18:35:00,660 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - font java.awt.Font[family=SansSerif,name=SansSerif,style=plain,size=14] has complex layout false, leading 0.4580078
+2018-04-19 18:35:00,660 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 14, style: 0} and element a397d6c9-bcc0-4b94-9545-a86751216841
+2018-04-19 18:35:00,660 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:35:00,660 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 22 in width 180.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=plain,size=14]
+2018-04-19 18:35:00,660 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - exact line break index measured at 22
+2018-04-19 18:35:00,660 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 22 at width 140.0888671875
+2018-04-19 18:35:00,660 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateFrame@5ed0902a
+2018-04-19 18:35:00,660 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateText@13e540ff
+2018-04-19 18:35:00,660 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateText@62aa4bac
+2018-04-19 18:35:00,676 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRVerticalFiller - Fill 1: page header at 92
+2018-04-19 18:35:00,676 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRVerticalFiller - Fill 1: column header at 105
+2018-04-19 18:35:00,676 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - font java.awt.Font[family=SansSerif,name=SansSerif,style=bold,size=14] has complex layout false, leading 0.4580078
+2018-04-19 18:35:00,676 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 14, style: 1} and element 3aa2f8d6-8bbb-47b9-bd76-914497b51811
+2018-04-19 18:35:00,676 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:35:00,676 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 4 in width 185.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=bold,size=14]
+2018-04-19 18:35:00,676 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - exact line break index measured at 4
+2018-04-19 18:35:00,676 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 4 at width 29.544921875
+2018-04-19 18:35:00,676 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 14, style: 1} and element 217c8d2f-1701-488a-9dc9-fb638e6d42a2
+2018-04-19 18:35:00,676 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:35:00,676 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 6 in width 185.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=bold,size=14]
+2018-04-19 18:35:00,676 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 6 at width 52.896484375
+2018-04-19 18:35:00,676 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 14, style: 1} and element 70c7a027-d6c7-4011-91b6-68a8ee05edb5
+2018-04-19 18:35:00,676 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:35:00,676 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 10 in width 185.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=bold,size=14]
+2018-04-19 18:35:00,676 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 10 at width 63.79296875
+2018-04-19 18:35:00,676 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateLine@41f51281
+2018-04-19 18:35:00,676 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateText@1bfe8b55
+2018-04-19 18:35:00,676 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@1bfe8b55 for object net.sf.jasperreports.engine.fill.JRTemplateText@22a5d26d
+2018-04-19 18:35:00,676 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@1bfe8b55 for object net.sf.jasperreports.engine.fill.JRTemplateText@12621abe
+2018-04-19 18:35:00,719 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRVerticalFiller - Fill 1: No_Motor header at 126
+2018-04-19 18:35:00,719 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - font java.awt.Font[family=SansSerif,name=SansSerif,style=plain,size=12] has complex layout false, leading 0.39257812
+2018-04-19 18:35:00,719 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 12, style: 0} and element a9fea81a-d33e-49cb-af4f-b3464f0c30bb
+2018-04-19 18:35:00,719 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:35:00,719 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 8 in width 100.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=plain,size=12]
+2018-04-19 18:35:00,719 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - exact line break index measured at 8
+2018-04-19 18:35:00,719 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 8 at width 52.6875
+2018-04-19 18:35:00,719 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - font java.awt.Font[family=SansSerif,name=SansSerif,style=bold,size=24] has complex layout false, leading 0.78515625
+2018-04-19 18:35:00,719 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 24, style: 1} and element 4c8d0f89-8f81-4b87-8459-36507e627c1c
+2018-04-19 18:35:00,719 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:35:00,719 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 4 in width 455.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=bold,size=24]
+2018-04-19 18:35:00,719 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - exact line break index measured at 4
+2018-04-19 18:35:00,719 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 4 at width 53.390625
+2018-04-19 18:35:00,719 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateText@2996e5a6
+2018-04-19 18:35:00,719 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateText@6a67bfd8
+2018-04-19 18:35:00,719 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@6a67bfd8 for (null, {java.lang.Integer, null,null,null,null})
+2018-04-19 18:35:00,719 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateLine@179dc69
+2018-04-19 18:35:00,719 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRVerticalFiller - Fill 1: detail at 159
+2018-04-19 18:35:00,719 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 14, style: 0} and element 3e3bcfa9-4f50-4d44-8908-bff883e27ea9
+2018-04-19 18:35:00,719 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:35:00,719 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 5 in width 185.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=plain,size=14]
+2018-04-19 18:35:00,719 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 5 at width 31.1240234375
+2018-04-19 18:35:00,734 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 14, style: 0} and element 288fb8ae-61c0-4ca4-a4ff-fa7a87f859a5
+2018-04-19 18:35:00,734 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:35:00,734 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 5 in width 185.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=plain,size=14]
+2018-04-19 18:35:00,766 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 4 at width 25.67578125
+2018-04-19 18:35:00,766 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 14, style: 0} and element 91aea1d7-958a-4803-aa15-96a196d493c3
+2018-04-19 18:35:00,766 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:35:00,766 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 1 in width 185.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=plain,size=14]
+2018-04-19 18:35:00,766 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 1 at width 7.7861328125
+2018-04-19 18:35:00,766 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateLine@814d24d
+2018-04-19 18:35:00,766 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateText@1631bd3c
+2018-04-19 18:35:00,766 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@1631bd3c for (null, null)
+2018-04-19 18:35:00,766 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@1631bd3c for object net.sf.jasperreports.engine.fill.JRTemplateText@417f495d
+2018-04-19 18:35:00,766 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@1631bd3c for (null, null)
+2018-04-19 18:35:00,766 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateText@e2a4f8f
+2018-04-19 18:35:00,766 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@e2a4f8f for (null, {java.lang.Integer, null,null,null,null})
+2018-04-19 18:35:00,766 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRVerticalFiller - Fill 1: page footer at 805
+2018-04-19 18:35:00,766 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - font java.awt.Font[family=SansSerif,name=SansSerif,style=plain,size=10] has complex layout false, leading 0.32714844
+2018-04-19 18:35:00,766 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 10, style: 0} and element 0d15c616-296a-41b2-ace2-387ca94d4cf6
+2018-04-19 18:35:00,766 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:35:00,766 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 9 in width 515.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=plain,size=10]
+2018-04-19 18:35:00,766 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - exact line break index measured at 9
+2018-04-19 18:35:00,766 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 9 at width 42.8125
+2018-04-19 18:35:00,781 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 10, style: 0} and element 1986226c-648a-4b12-a0aa-48e644313d2d
+2018-04-19 18:35:00,781 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:35:00,781 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 20 in width 100.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=plain,size=10]
+2018-04-19 18:35:00,781 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 20 at width 89.5068359375
+2018-04-19 18:35:00,781 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateText@4f7058
+2018-04-19 18:35:00,813 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@4f7058 for (null, null)
+2018-04-19 18:35:00,813 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateText@5cc501e9
+2018-04-19 18:35:00,813 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@5cc501e9 for (null, null)
+2018-04-19 18:35:00,813 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRBaseFiller - Adding evaluation of net.sf.jasperreports.engine.fill.JRTemplatePrintText@6fe19746 by net.sf.jasperreports.engine.fill.JRFillTextField@5b0a4665 for evaluation {type: REPORT, group: null, band: 0}
+2018-04-19 18:35:00,813 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateText@5482a74b
+2018-04-19 18:35:00,813 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@5482a74b for (null, {java.util.Date, EEEEE dd MMMMM yyyy,null,null,null})
+2018-04-19 18:35:00,813 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.ElementEvaluationAction - resolving element net.sf.jasperreports.engine.fill.JRTemplatePrintText@6fe19746 by net.sf.jasperreports.engine.fill.JRFillTextField@5b0a4665 on {type: REPORT, group: null, band: 0}
+2018-04-19 18:35:00,813 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 10, style: 0} and element 5d5bfe04-158d-4e3a-8bce-23da76b7aed0
+2018-04-19 18:35:00,813 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:35:00,813 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 2 in width 40.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=plain,size=10]
+2018-04-19 18:35:00,813 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 2 at width 8.33984375
+2018-04-19 18:35:00,813 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRBaseFiller - Fill 1: ended
+2018-04-19 18:35:00,813 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillDataset - Fill 1: closing query executer
+2018-04-19 18:35:11,190 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRBaseFiller - Fill 1: created for null
+2018-04-19 18:35:11,190 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand - Origin {reportName: null, groupName: null,bandType: BACKGROUND} for band 2126304765
+2018-04-19 18:35:11,190 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand - Origin {reportName: null, groupName: null,bandType: TITLE} for band 737968332
+2018-04-19 18:35:11,205 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand - Origin {reportName: null, groupName: null,bandType: PAGE_HEADER} for band 1186658147
+2018-04-19 18:35:11,205 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand - Origin {reportName: null, groupName: null,bandType: COLUMN_HEADER} for band 724204823
+2018-04-19 18:35:11,205 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand - Origin {reportName: null, groupName: null,bandType: DETAIL} for band 1778885810
+2018-04-19 18:35:11,205 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand - Origin {reportName: null, groupName: null,bandType: COLUMN_FOOTER} for band 228052907
+2018-04-19 18:35:11,205 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand - Origin {reportName: null, groupName: null,bandType: PAGE_FOOTER} for band 1128633552
+2018-04-19 18:35:11,205 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRVerticalFiller - Filler 1 - pageHeight: 842, columnFooterOffsetY: 805, lastPageColumnFooterOffsetY: 822
+2018-04-19 18:35:11,205 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRBaseFiller - Fill 1: filling report
+2018-04-19 18:35:11,205 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillDataset - Fill 1: Creating SQL query executer
+2018-04-19 18:35:11,205 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.query.JRJdbcQueryExecuter - SQL query string: select Vehiculo.Tipo, Vehiculo.Nombre, Servicio.15milkm, Servicio.30milkm, Servicio.45milkm, Servicio.60milkm from Vehiculo inner join Servicio on Vehiculo.No_Motor = Servicio.Vehiculo_No_Motor
+2018-04-19 18:35:11,221 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRBaseFiller - Fill 1: adding page 1
+2018-04-19 18:35:11,221 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRVerticalFiller - Fill 1: title at 20
+2018-04-19 18:35:11,221 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font infos cache of size 2000
+2018-04-19 18:35:11,221 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - font java.awt.Font[family=SansSerif,name=SansSerif,style=bold,size=34] has complex layout false, leading 1.1123047
+2018-04-19 18:35:11,221 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 34, style: 1} and element e6eeae21-341f-4b24-b0a1-896e2565ccef
+2018-04-19 18:35:11,221 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:35:11,221 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 10 in width 234.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=bold,size=34]
+2018-04-19 18:35:11,221 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - exact line break index measured at 10
+2018-04-19 18:35:11,221 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 10 at width 171.892578125
+2018-04-19 18:35:11,221 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - font java.awt.Font[family=SansSerif,name=SansSerif,style=plain,size=14] has complex layout false, leading 0.4580078
+2018-04-19 18:35:11,221 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 14, style: 0} and element dbb12845-7a67-47a9-b726-fa825462b7b4
+2018-04-19 18:35:11,221 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:35:11,221 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 22 in width 180.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=plain,size=14]
+2018-04-19 18:35:11,221 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - exact line break index measured at 22
+2018-04-19 18:35:11,221 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 22 at width 140.0888671875
+2018-04-19 18:35:11,221 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateFrame@156ae7d8
+2018-04-19 18:35:11,221 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateText@12722d4d
+2018-04-19 18:35:11,221 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateText@ffac1e9
+2018-04-19 18:35:11,221 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRVerticalFiller - Fill 1: page header at 92
+2018-04-19 18:35:11,221 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRVerticalFiller - Fill 1: column header at 105
+2018-04-19 18:35:11,221 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - font java.awt.Font[family=SansSerif,name=SansSerif,style=bold,size=14] has complex layout false, leading 0.4580078
+2018-04-19 18:35:11,221 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 14, style: 1} and element 34810d77-f624-4ac7-a752-696dd30058d7
+2018-04-19 18:35:11,221 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:35:11,221 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 4 in width 92.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=bold,size=14]
+2018-04-19 18:35:11,221 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - exact line break index measured at 4
+2018-04-19 18:35:11,221 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 4 at width 29.544921875
+2018-04-19 18:35:11,236 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 14, style: 1} and element 773efbf1-f242-48d8-879e-a4ad9f03394d
+2018-04-19 18:35:11,236 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:35:11,236 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 6 in width 92.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=bold,size=14]
+2018-04-19 18:35:11,236 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 6 at width 52.896484375
+2018-04-19 18:35:11,236 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 14, style: 1} and element 56a6828b-63fd-4bca-acff-fd7713c81a19
+2018-04-19 18:35:11,236 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:35:11,236 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 7 in width 92.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=bold,size=14]
+2018-04-19 18:35:11,236 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 7 at width 56.0341796875
+2018-04-19 18:35:11,236 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 14, style: 1} and element 3df8952e-16cb-4cf0-b132-8a9d9755cc99
+2018-04-19 18:35:11,236 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:35:11,236 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 7 in width 92.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=bold,size=14]
+2018-04-19 18:35:11,236 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 7 at width 56.0341796875
+2018-04-19 18:35:11,236 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 14, style: 1} and element ea017fed-4dd8-4832-a553-729242fa52ce
+2018-04-19 18:35:11,236 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:35:11,236 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 7 in width 92.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=bold,size=14]
+2018-04-19 18:35:11,236 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 7 at width 56.0341796875
+2018-04-19 18:35:11,252 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 14, style: 1} and element 788c2e59-b60c-4f31-8a8d-782a31caa03d
+2018-04-19 18:35:11,252 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:35:11,252 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 7 in width 92.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=bold,size=14]
+2018-04-19 18:35:11,252 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 7 at width 56.0341796875
+2018-04-19 18:35:11,252 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateLine@452c53c9
+2018-04-19 18:35:11,252 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateText@73a3893
+2018-04-19 18:35:11,252 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@73a3893 for object net.sf.jasperreports.engine.fill.JRTemplateText@4a1757c
+2018-04-19 18:35:11,304 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@73a3893 for object net.sf.jasperreports.engine.fill.JRTemplateText@5d8d0988
+2018-04-19 18:35:11,304 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@73a3893 for object net.sf.jasperreports.engine.fill.JRTemplateText@7a98bbeb
+2018-04-19 18:35:11,304 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@73a3893 for object net.sf.jasperreports.engine.fill.JRTemplateText@2c30ea8b
+2018-04-19 18:35:11,304 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@73a3893 for object net.sf.jasperreports.engine.fill.JRTemplateText@233570e4
+2018-04-19 18:35:11,304 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRVerticalFiller - Fill 1: detail at 126
+2018-04-19 18:35:11,304 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 14, style: 0} and element 4d9670c8-c9de-4482-a55a-b7a28d17225d
+2018-04-19 18:35:11,304 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:35:11,304 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 5 in width 92.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=plain,size=14]
+2018-04-19 18:35:11,304 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 5 at width 31.1240234375
+2018-04-19 18:35:11,304 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 14, style: 0} and element bb46e355-c572-4ff9-b956-1278fab70c76
+2018-04-19 18:35:11,304 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:35:11,304 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 5 in width 92.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=plain,size=14]
+2018-04-19 18:35:11,304 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 4 at width 25.67578125
+2018-04-19 18:35:11,304 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 14, style: 0} and element 456fcf46-0acf-412b-9e42-ecc5d59b4b7b
+2018-04-19 18:35:11,304 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:35:11,304 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 4 in width 92.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=plain,size=14]
+2018-04-19 18:35:11,304 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 4 at width 27.248046875
+2018-04-19 18:35:11,304 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 14, style: 0} and element 7bd258fa-d017-433b-9d5e-96ec93564d23
+2018-04-19 18:35:11,304 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:35:11,304 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 6 in width 92.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=plain,size=14]
+2018-04-19 18:35:11,304 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 6 at width 42.8203125
+2018-04-19 18:35:11,304 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 14, style: 0} and element eddd1b42-42bc-48ba-bf40-cae6726dc598
+2018-04-19 18:35:11,335 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:35:11,351 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 5 in width 92.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=plain,size=14]
+2018-04-19 18:35:11,351 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 5 at width 35.0341796875
+2018-04-19 18:35:11,351 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 14, style: 0} and element 317498ca-4776-4874-9710-8b758872d120
+2018-04-19 18:35:11,351 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:35:11,351 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 3 in width 92.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=plain,size=14]
+2018-04-19 18:35:11,351 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 3 at width 19.4619140625
+2018-04-19 18:35:11,351 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateLine@1641fc43
+2018-04-19 18:35:11,351 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateText@29b94a83
+2018-04-19 18:35:11,351 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@29b94a83 for (null, null)
+2018-04-19 18:35:11,351 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@29b94a83 for object net.sf.jasperreports.engine.fill.JRTemplateText@276998d
+2018-04-19 18:35:11,351 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@29b94a83 for (null, null)
+2018-04-19 18:35:11,351 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateText@a4c6b77
+2018-04-19 18:35:11,351 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@a4c6b77 for (null, {java.lang.Float, null,null,null,null})
+2018-04-19 18:35:11,351 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@a4c6b77 for object net.sf.jasperreports.engine.fill.JRTemplateText@13762d99
+2018-04-19 18:35:11,351 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@a4c6b77 for (null, {java.lang.Float, null,null,null,null})
+2018-04-19 18:35:11,351 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@a4c6b77 for object net.sf.jasperreports.engine.fill.JRTemplateText@70788026
+2018-04-19 18:35:11,351 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@a4c6b77 for (null, {java.lang.Float, null,null,null,null})
+2018-04-19 18:35:11,351 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@a4c6b77 for object net.sf.jasperreports.engine.fill.JRTemplateText@46f4c555
+2018-04-19 18:35:11,351 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@a4c6b77 for (null, {java.lang.Float, null,null,null,null})
+2018-04-19 18:35:11,351 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRVerticalFiller - Fill 1: page footer at 805
+2018-04-19 18:35:11,355 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - font java.awt.Font[family=SansSerif,name=SansSerif,style=plain,size=10] has complex layout false, leading 0.32714844
+2018-04-19 18:35:11,355 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 10, style: 0} and element ddc4e4fa-2e37-4750-9fee-ce799500bb70
+2018-04-19 18:35:11,387 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:35:11,387 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 9 in width 515.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=plain,size=10]
+2018-04-19 18:35:11,387 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - exact line break index measured at 9
+2018-04-19 18:35:11,387 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 9 at width 42.8125
+2018-04-19 18:35:11,387 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 10, style: 0} and element 71b67468-c49e-42c7-a61c-8e4b105a2743
+2018-04-19 18:35:11,387 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:35:11,387 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 20 in width 100.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=plain,size=10]
+2018-04-19 18:35:11,387 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 20 at width 89.5068359375
+2018-04-19 18:35:11,387 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateText@2f8a092f
+2018-04-19 18:35:11,387 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@2f8a092f for (null, null)
+2018-04-19 18:35:11,387 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateText@db2f3a2
+2018-04-19 18:35:11,387 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@db2f3a2 for (null, null)
+2018-04-19 18:35:11,387 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRBaseFiller - Adding evaluation of net.sf.jasperreports.engine.fill.JRTemplatePrintText@397f3b82 by net.sf.jasperreports.engine.fill.JRFillTextField@59419f95 for evaluation {type: REPORT, group: null, band: 0}
+2018-04-19 18:35:11,387 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry - Added object net.sf.jasperreports.engine.fill.JRTemplateText@3c48ee7d
+2018-04-19 18:35:11,387 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillTextField - created net.sf.jasperreports.engine.fill.JRTemplateText@3c48ee7d for (null, {java.util.Date, EEEEE dd MMMMM yyyy,null,null,null})
+2018-04-19 18:35:11,387 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.ElementEvaluationAction - resolving element net.sf.jasperreports.engine.fill.JRTemplatePrintText@397f3b82 by net.sf.jasperreports.engine.fill.JRFillTextField@59419f95 on {type: REPORT, group: null, band: 0}
+2018-04-19 18:35:11,387 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - creating element font info for {family: SansSerif, size: 10, style: 0} and element dd8a45f8-7341-4f0b-b112-abfbb2d9b7a0
+2018-04-19 18:35:11,387 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - paragraph start at 0, truncate at char false, LTR true, exact measure false
+2018-04-19 18:35:11,387 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - simple line measurement at 0 to 2 in width 40.0 with font java.awt.Font[family=SansSerif,name=SansSerif,style=plain,size=10]
+2018-04-19 18:35:11,387 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper - measured to index 2 at width 8.33984375
+2018-04-19 18:35:11,387 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRBaseFiller - Fill 1: ended
+2018-04-19 18:35:11,387 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillDataset - Fill 1: closing query executer
+2018-04-19 18:37:39,501 [main] INFO  servidorChat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
+2018-04-19 18:37:39,501 [main] INFO  servidorChat.ServidorChat - Servidor a la espera de conexiones.
+2018-04-19 18:38:50,946 [Thread-2] INFO  servidorChat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.

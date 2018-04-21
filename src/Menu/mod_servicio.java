@@ -345,7 +345,7 @@ public class mod_servicio extends javax.swing.JFrame {
         int result = JOptionPane.showConfirmDialog(null, "Se modificaran los datos, desea continuar?", "ACTUALIZAR", dialog);
         if (result==0){
             ams.guardarServicioMod(acb.getModificarOtrasTablas(Integer.parseInt(jTextField3.getText()),"servicio"));
-         
+            
             JOptionPane.showMessageDialog(null, acb.actualizarServicio(Integer.parseInt(jTextField3.getText()), 
                     Float.parseFloat(jTextField1.getText()), Float.parseFloat(jTextField2.getText()), 
                     Float.parseFloat(jTextField4.getText()), Float.parseFloat(jTextField5.getText())));
